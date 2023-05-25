@@ -1,5 +1,6 @@
 import Header from './Header';
 import '../App.css';
+import Hero from './Hero';
 
 
 
@@ -13,6 +14,8 @@ function Formatter() {
       <div style={{ width: "100%" }}>
         <Header />
       </div>
+      <Hero/>
+
       {/* <Navigation /> */}
       {/* <div
         style={{

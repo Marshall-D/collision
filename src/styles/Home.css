@@ -1,0 +1,162 @@
+.hero {
+    font-size: 100%;
+
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+    align-items: center;
+    display: flex;
+    position: relative;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    padding: 5rem 0 3rem;
+    overflow: hidden;
+}
+
+.container {
+    
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-variant-ligatures: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+    
+    font-family: "Inter", sans-serif;
+    color: color;
+    box-sizing: border-box;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    z-index: 1;
+    max-width: 960px;
+    padding: 0 1rem;
+}
+.row{
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-variant-ligatures: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    
+    font-family: "Inter",sans-serif;
+    color: white;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 0;
+}
+.col-md{
+    
+    font-family: "Inter",sans-serif;
+    color: var(--white-color);
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+.full{   
+
+    color: white;
+    box-sizing: border-box;
+    font-size: 1.75rem;
+    margin: 0 0 1rem;
+    font-family: "korolev",sans-serif;
+    text-transform: uppercase;
+    width: 100%;}
+
+    .full-span{
+        
+        color: white;
+        font-family: "korolev",sans-serif;
+        text-transform: uppercase;
+        box-sizing: border-box;
+        font-size: 1rem;
+        font-weight: 400;
+        white-space: nowrap;
+    }
+    .col-md-6{
+        font-family: "Inter",sans-serif;
+        color: white;
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .col-md-6-p{   
+        font-family: "Inter",sans-serif;
+        color: white;
+        box-sizing: border-box;
+        margin: 0 0 1rem;
+        line-height: 1.4;
+        font-size: 1.2rem;}
+        .col-md-6-center{
+            font-family: "Inter",sans-serif;
+            color: white;
+            box-sizing: border-box;
+            position: relative;
+            width: 100%;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+    .hero-btn-red{
+        font-family: "Inter",sans-serif;
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid;
+        transition: all .4s ease;
+        appearance: none;
+        text-align: center;
+        border-radius: 4px;
+        font-size: .75rem!important;
+        padding: .5rem .7rem!important;
+        background-color: red;
+        border-color: red;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .hero-btn-white{
+        font-family: "Inter",sans-serif;
+        box-sizing: border-box;
+        background: white;
+        border: 1px solid;
+        transition: all .4s ease;
+        appearance: none;
+        text-align: center;
+        border-radius: 4px;
+        font-size: .75rem!important;
+        padding: .5rem .7rem!important;
+        background-color: white;
+        border-color: red;
+        color: red;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
