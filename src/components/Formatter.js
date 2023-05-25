@@ -3,6 +3,7 @@ import '../App.css';
 import Hero from './Hero';
 import Section2 from './Section2';
 import Slider from './Slider';
+import Speakers from './Speakers';
 
 
 
@@ -20,6 +21,7 @@ function Formatter() {
       <Hero/>
       <Section2/>
       <Slider/>
+      <Speakers/>
 
       {/* <Navigation /> */}
       {/* <div
