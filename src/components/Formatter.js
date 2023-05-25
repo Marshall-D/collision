@@ -1,6 +1,7 @@
 import Header from './Header';
 import '../App.css';
 import Hero from './Hero';
+import Section2 from './Section2';
 
 
 
@@ -15,6 +16,7 @@ function Formatter() {
         <Header />
       </div>
       <Hero/>
+      <Section2/>
 
       {/* <Navigation /> */}
       {/* <div
