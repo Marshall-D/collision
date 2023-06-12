@@ -1,5 +1,5 @@
 
-import "../styles/Section2.css";
+import "../styles/home/Section2.css";
 
 const Section2 = () => {
   return (

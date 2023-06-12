@@ -1,0 +1,26 @@
+.container{
+    width:auto
+}
+.inner-container{
+    margin:5px;
+    display : inline-flex;
+}
+.image-container{
+    width: 120px;
+    height: 160px;
+    margin-left: 20px;
+}
+.image-text{
+    position: absolute;
+    color: white;
+    bottom: 2px;
+    left: 16px;
+    margin: 5px !important;
+
+}.image{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+

@@ -1,4 +1,4 @@
-import "../styles/TopHeader.css";
+import "../styles/home/TopHeader.css";
 
 
 function TopHeader() {

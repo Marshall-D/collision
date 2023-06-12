@@ -1,0 +1,39 @@
+.formSection{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.container{
+    padding-left: 1em;
+    padding-right: 1em;
+}
+section div h2{
+    color: blue;
+    margin-bottom: 1em;
+}
+.form_field{
+    padding-top: 2em;
+    margin-bottom: 1em;
+}
+.input{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 10em;
+}
+
+.form-text{
+    color : red;
+    margin-top: 1em;
+}
+.input-container{
+    display: flex;
+    margin-bottom: 2em;
+}
+
+ .btn{
+    width: 80%;
+    padding: 4em;
+ }
+/* 
+ section div div form div div div div input[type="radio"]{
+    color: red;
+} */

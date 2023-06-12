@@ -1,5 +1,5 @@
-import TopHeader from "./TopHeader";
-import "../styles/TopHeader.css";
+import TopHeader from "../Home/TopHeader";
+import "../styles/home/TopHeader.css";
 
 function Header() {
   return (
