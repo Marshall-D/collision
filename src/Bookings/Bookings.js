@@ -1,5 +1,5 @@
 import Attendees from "./Attendees";
-import GA from "./GA";
+import GA from "./GA/GA";
 import Header2 from "./Header2";
 
 const Bookings = () => {

@@ -1,9 +1,9 @@
 import Chair from "./Chair";
 import Exec from "./Exec";
 import Exhibition from "./Exhibition";
-import Footer2 from "./Footer2";
+import Footer2 from "../Footer2";
 import Gadiv1 from "./Gadiv1";
-import Trusted from "./Trusted";
+import Trusted from "../Trusted";
 
 function GA() {
     return (
