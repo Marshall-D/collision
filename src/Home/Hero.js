@@ -13,7 +13,7 @@ const Hero = () => {
         <div className="container">
           <div className="row">
             <div className="col-md">
-              <h1 className="full  ">
+              <h1 className="full ">
                 “The Olympics of tech” <span className="full-span">– Politico</span>
               </h1>
             </div>

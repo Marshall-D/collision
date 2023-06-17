@@ -1,6 +1,5 @@
 .hero {
     font-size: 100%;
-
     font-family: "Inter", sans-serif;
     box-sizing: border-box;
     background-color: black;
@@ -11,8 +10,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
-    padding: 5rem 0 3rem;
+    padding-top: 7em;
+    padding-bottom: 3rem;
+
+    /* padding: 5rem 0 3rem; */
     overflow: hidden;
+    
 }
 
 .container {
@@ -23,7 +26,6 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    
     font-family: "Inter", sans-serif;
     color: color;
     box-sizing: border-box;
@@ -100,6 +102,7 @@
         margin: 0 0 1rem;
         line-height: 1.4;
         font-size: 1.2rem;}
+
         .col-md-6-center{
             font-family: "Inter",sans-serif;
             color: white;
@@ -152,6 +155,27 @@
         background-color: white;
         border-color: red;
         color: red;
+        text-transform: uppercase;
+        font-weight: 600;
+        width: 100%;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } .hero-btn-black{
+        font-family: "Inter",sans-serif;
+        box-sizing: border-box;
+        background: black;
+        border: 1px solid;
+        transition: all .4s ease;
+        appearance: none;
+        text-align: center;
+        border-radius: 4px;
+        font-size: .75rem!important;
+        padding: .5rem .7rem!important;
+        background-color: black;
+        border-color: red;
+        color: white;
         text-transform: uppercase;
         font-weight: 600;
         width: 100%;

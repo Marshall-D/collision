@@ -23,7 +23,7 @@ function Home() {
     <Speaker2/>
     <DownloadSection/>
     <Slider2/>
-    <Section3></Section3>
+    <Section3/>
     <Section4/>
     <Section5/>
     <Section6/>

@@ -4,7 +4,7 @@ import "../styles/home/TopHeader.css";
 function Header() {
   return (
     <div className="topHeader">
-      <TopHeader  />
+      {/* <TopHeader  /> */}
       <div class="header__buttons"></div>
       <div class="menu__burger hamburger hamburger--elastic">
         <div class="hamburger-box">

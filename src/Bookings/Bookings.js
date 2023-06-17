@@ -1,6 +1,9 @@
-import Attendees from "./Attendees";
 import GA from "./GA/GA";
+import GroupOffer from "./GroupOffers/GroupOffer";
 import Header2 from "./Header2";
+import Investors from "./Investors/Investors";
+import Partners from "./Partners/Partners";
+import Startup from "./Startups/Startup";
 
 const Bookings = () => {
   return (
@@ -80,7 +83,11 @@ const Bookings = () => {
     </header>
     <Attendees/> */}
 
-    <GA/>
+    {/* <GA/> */}
+{/* <GroupOffer/> */}
+{/* <Investors/> */}
+{/* <Partners/> */}
+<Startup/>
     </div>
 
   );
