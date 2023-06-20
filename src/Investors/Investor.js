@@ -6,6 +6,11 @@ import Section3 from "../Home/Section3";
 import Section6 from "../Home/Section6";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import HeroInvestor from "./HeroInvestor";
+import Section2Investor from "./Section2Investor";
+import Section3Investor from "./Section3Investor";
+import Speaker2Investor from "./Speaker2Investor";
+import TrustedInvestor from "./TrustedInvestor";
 
 
 function Investor() {
@@ -14,10 +19,11 @@ function Investor() {
       <div style={{ width: "100%" }}>
       <Header/>
     </div>
-    <Hero/>
-    <Section3/>
-    <Trusted/>
-    <Speaker2/>
+    <HeroInvestor/>
+    <Section2Investor/>
+    <Section3Investor/>
+    <TrustedInvestor/>
+    <Speaker2Investor/>
     
 
     {/* <Section6/> 

@@ -5,6 +5,7 @@ import Section3 from "../Home/Section3";
 import Section6 from "../Home/Section6";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import HeroJob from "./HeroJob";
 
 
 function Jobs() {
@@ -13,18 +14,11 @@ function Jobs() {
       <div style={{ width: "100%" }}>
       <Header/>
     </div>
-    <Hero/>
+    <HeroJob/>
     <p> Apply to get jobs</p>
 
 
 
-    {/* <Section2/>
-    <Slider/>
-    <DownloadSection/>
-    <Section3></Section3>
-    <Section4/>
-    <Section5/>
-    */}
     <Footer />
 
     </div>    );

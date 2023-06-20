@@ -21,6 +21,12 @@ import Section4 from "../Home/Section4";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import HeroTeam from "./HeroTeam";
+import Section2Team from "./Section2Team";
+import Section2Team2 from "./Section2Team2";
+import Section2Team3 from "./Section2Team3";
+import Section3Team from "./Section3Team";
+import SliderTeam from "./SliderTeam";
 
 function TeamBuilding() {
     return (
@@ -28,10 +34,14 @@ function TeamBuilding() {
       <div style={{ width: "100%" }}>
       <Header />
     </div>
-    <Hero/>
-    <Section2/>
-    <Section3/>
-    <Slider2/>
+    <HeroTeam/>
+    <Section2Team/>
+    <Section2Team2/>
+    <Section3Team/>
+    <SliderTeam/>
+    <Section2Team3/>
+    <SliderTeam/>
+
 
     <DownloadSection/> 
     <Section4/>

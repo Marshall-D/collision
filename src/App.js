@@ -1,7 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
 import Formatter from "./components/Formatter";
-import QandA from "./Content/QandA";
 import ExploreContent from "./Content/ExploreContent";
 import Roundtables from "./Content/Roundtables";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
@@ -31,6 +30,7 @@ import Networking from "./WhyCollision/Networking";
 import Reasons from "./WhyCollision/Reasons";
 import TeamBuilding from "./WhyCollision/TeamBuilding";
 import WomenTech from "./components/WomenTech";
+import QandA from "./Content/QandA/QandA";
 
 const router = createBrowserRouter([
   {
@@ -63,7 +63,7 @@ const router = createBrowserRouter([
       },
 
       {
-        path: "/mediaparnter",
+        path: "/mediapartner",
         element: <MediaPartner />,
       },
       {

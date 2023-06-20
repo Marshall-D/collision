@@ -20,6 +20,9 @@ import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
 import Section2 from "../Home/Section2";
+import HeroWomen from './HeroWomen';
+import Section2Women from './Section2Women';
+import Section3Women from './Section3Women';
 
 function WomenTech() {
     return (
@@ -27,10 +30,9 @@ function WomenTech() {
       <div style={{ width: "100%" }}>
       <Header />
     </div>
-    <Hero/>
-    <Section6/> 
-    <Section2/>
-    <Section3/>
+    <HeroWomen/>
+    <Section2Women/>
+    <Section3Women/>
     <Speaker2/>
 
 

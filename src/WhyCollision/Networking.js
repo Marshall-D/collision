@@ -19,6 +19,16 @@ import Section3 from "../Home/Section3";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import SpeakerTableHome from "../Home/SpeakerTableHome";
+import HeroNetwork from "./HeroNetwork";
+import Section2Network from "./Section2Network";
+import Section2Network2 from "./Section2Network2";
+import Section2Network3 from "./Section2Network3";
+import Section3Network from "./Section3Network";
+import Section3Network2 from "./Section3Network2";
+import Section3Network3 from "./Section3Network3";
+import Slider2Network from "./Slider2Network";
+import SliderNetwork from "./SliderNetwork";
 
 function Networking() {
     return (
@@ -26,24 +36,18 @@ function Networking() {
       <div style={{ width: "100%" }}>
       <Header />
     </div>
-    <Hero/>
-    <Slider/>
-    <Slider2/>
-    <Section3/>
-    <Speaker2/>
+    <HeroNetwork/>
+    <SliderNetwork/>
+    <Slider2Network/>
+    <Section2Network/>
+    <Section3Network/>
+    <Section2Network2/>
+    <Section3Network2/>
+     <Section2Network3/>
+    <Section3Network3/>
+
+    <SpeakerTableHome/>
     <DownloadSection/>
-
-
-    {/*
-    <Slider2/>
- */}
-
-
-    {/* <Section2/>
-    <DownloadSection/>
-    <Section4/>
-    <Section5/>
-    <Section6/> */}
     <Footer/>
 
     </div>    );

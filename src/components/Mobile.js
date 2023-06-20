@@ -1,59 +1,139 @@
-import { Link } from 'react-router-dom';
-import "../Styles/Mobile.css";
+import { Link } from "react-router-dom";
+import TopHeader from "../Home/TopHeader";
+import "../styles/Mobile.css";
+// import "../styles/animation.css";
 
 function Mobile() {
-    return (
-      <div>
-        <div className="mobile_menu">
-          <div>
-            <ul className="mobile_menu_ul">
-              <li className="mobile_menu_title">
-                <div style={{ padding: "15px" }}>
-                  Canada International Conference On Engineering and Sciences
-                  <span className="mobile_menu_title_span">
-                    CICES 2023 |August 21 -25, 2023 | Calgary, Canada
-                  </span>
-                </div>
+  const reload = () => {
+    window.location.reload(false);
+  };
+  return (
+    <div>
+      <div className="content2">
+        {/* <div 
+      className="phone"
+      > */}
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+            <ul id="menu"
+            //  onClick={reload}
+             >
+              <li>
+                <Link to="/bookings" className="hero-btn-red " rel="" target="">
+                  Book tickets
+                </Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="/" className="mobile_menu_a">
+              <li>
+                <Link to="/partners" className="hero-btn-black">
+                  Partner with us
+                </Link>
+              </li>
+              <li>
+                <div className="dropdown">
                   Home
-                </Link>
+                  <div className="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+                {/* <Link to="/">Home</Link> */}
               </li>
-              <li className="mobile_menu_li">
-                <Link to="call" className="mobile_menu_a">
-                  Call For Exhibitors
-                </Link>
+              <li>
+                <Link to="/qanda">Q and A</Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="reg" className="mobile_menu_a">
-                  Registration
-                </Link>
+              <li>
+                <Link to="/explore">Explore Content</Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="travel" className="mobile_menu_a">
-                  Travel and Hotel
-                </Link>
+              <li>
+                <Link to="/roundtables">Round Table</Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="speakers" className="mobile_menu_a">
-                  Speakers
-                </Link>
+              <li>
+                <Link to="/media">Media</Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="Visa" className="mobile_menu_a">
-                  Canada Visa
-                </Link>
+              <li>
+                <Link to="/mediapartner">Media Partner</Link>
               </li>
-              <li className="mobile_menu_li">
-                <Link to="contact" className="mobile_menu_a">
-                  Contact us
-                </Link>
+              <li>
+                <Link to="/attendees">Featured Attendees</Link>
+              </li>{" "}
+              <li>
+                <Link to="/convinceyourboss">Convince your Boss</Link>
+              </li>{" "}
+              <li>
+                <Link to="/jobs">Jobs</Link>
+              </li>
+              <li>
+                <Link to="/speakers">Speakers</Link>
+              </li>{" "}
+              <li>
+                <Link to="/meetpartners">Meet our Partners</Link>
+              </li>
+              <li>
+                <Link to="/partners">Partners</Link>
+              </li>
+              <li>
+                <Link to="/investors">Investors</Link>
+              </li>
+              <li>
+                <Link to="/whatmedia">What media</Link>
+              </li>
+              <li>
+                <Link to="/schedule">Schedule</Link>
+              </li>
+              <li>
+                <Link to="/masterclass">MasterClass</Link>
+              </li>
+              <li>
+                <Link to="/essentials">Essentials</Link>
+              </li>
+              <li>
+                <Link to="/around">Around</Link>
+              </li>
+              <li>
+                <Link to="/cityguide">City Guide</Link>
+              </li>
+              <li>
+                <Link to="/restaurant">Restaurant</Link>
+              </li>
+              <li>
+                <Link to="/shopping">Shopping</Link>
+              </li>
+              <li>
+                <Link to="/sight">Sight</Link>
+              </li>
+              <li>
+                <Link to="/lead">Lead</Link>
+              </li>
+              <li>
+                <Link to="/learning">Learning</Link>
+              </li>
+              <li>
+                <Link to="/networking">Networking</Link>
+              </li>
+              <li>
+                <Link to="/reasons">Reasons</Link>
+              </li>
+              <li>
+                <Link to="/teambuilding">Team Building</Link>
+              </li>
+              <li>
+                <Link to="/womenintech">Women in Tech</Link>
               </li>
             </ul>
           </div>
+        </nav>
+        {/* </div> */}
+        <div>
+          <TopHeader />
         </div>
       </div>
-    );
-  }
-  export default Mobile;
+    </div>
+  );
+}
+export default Mobile;

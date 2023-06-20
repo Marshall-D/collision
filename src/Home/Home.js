@@ -10,6 +10,7 @@ import Section5 from './Section5';
 import Section6 from './Section6';
 import Footer from './Footer';
 import Header from './Header';
+import SpeakerTableHome from './SpeakerTableHome';
 
 function Home() {
     return (
@@ -20,7 +21,7 @@ function Home() {
     <Hero/>
     <Section2/>
     <Slider/>
-    <Speaker2/>
+    <SpeakerTableHome/>
     <DownloadSection/>
     <Slider2/>
     <Section3/>

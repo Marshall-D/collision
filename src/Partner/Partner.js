@@ -16,37 +16,30 @@ import Hero from "../Home/Hero";
 import Section3 from "../Home/Section3";
 import Section4 from "../Home/Section4";
 import Section6 from "../Home/Section6";
-import Slider from "../Home/Slider";
+import SliderPartner from "./SliderPartner";
 import Slider2 from "../Home/Slider2";
+import HeroPartner from "./HeroPartner";
+import Section2Partner from "./Section2Partner";
+import Section3Partner from "./Section3Partner";
+import Section4Partner from "./Section4Partner";
 
 function Partner() {
-    return (
-
-        //for now we are 
-      <div>
+  return (
+    //for now we are
+    <div>
       <div style={{ width: "100%" }}>
-      <Header />
+        <Header />
+      </div>
+      <HeroPartner />
+      <SliderPartner/>
+      <Section2Partner/>
+      <Section3Partner/>
+      <Slider2 />
+      <Section4Partner />
+      <Section6 />
+      <Footer />
     </div>
+  );
+}
 
-    <Hero/>
-
-    <Slider/>
-    <Section3/>
-    <Slider2/>
-    <Section3/>
-    <Section4/>
-    <Section6/>
-    <Footer />
-
-    {/* 
-    <Section2/>
-    <Speaker2/>
-    <DownloadSection/>
-  
-    <Section5/>
-    */}
-
-    </div>    );
-  }
-  
-  export default Partner;
+export default Partner;

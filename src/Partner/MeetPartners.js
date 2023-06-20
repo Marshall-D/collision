@@ -18,6 +18,7 @@ import Section4 from "../Home/Section4";
 import Section6 from "../Home/Section6";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
+import HeroPartner from "./HeroPartner";
 
 function MeetPartners() {
     return (
@@ -28,7 +29,7 @@ function MeetPartners() {
       <Header />
     </div>
 
-    <Hero/>
+    <HeroPartner/>
 
     <p>Partners apper here</p>
     <Footer />

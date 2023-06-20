@@ -1,0 +1,32 @@
+.container{
+    width:auto
+}
+.inner-container{
+    margin:5px;
+    display : inline-flex;
+}
+.image-containers{
+    width: 120px;
+    height: 30px;
+    margin-left: 20px;
+}
+.image-text{
+    /* font-style: bold; */
+    font-weight: 4000px;
+    position: absolute;
+    text-shadow: 1px 2px 3px #000;
+    color: white;
+    bottom: 2px;
+    left: 16px;
+    font-size: small;
+    margin: 5px !important;
+
+}.images{
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 130px;
+
+
+}
+

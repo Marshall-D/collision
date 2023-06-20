@@ -11,6 +11,15 @@ import shopify from '../images/home/shopify-logo-white.png'
 import sherpa from '../images/home/Sherpa-logo-white.png'
 import rogers from '../images/home/rogers-logo-white.png'
 import mercedes from '../images/home/Mercedes-benz-white-logo-resized.svg'
+import accenture from '../images/home/accenture-logo-white.png'
+import airb from '../images/home/airbnb-logo.png'
+import atlass from '../images/home/atlassian.svg'
+import aws from '../images/home/aws-logo-white.png'
+import booking from '../images/home/Booking.com-logo-white.png'
+import cisco from '../images/home/cisco-logo-white.png'
+import kpmg from '../images/home/kpmg-logo-white.png'
+import cnbc from '../images/home/cnbc.png'
+
 
 const Slider2 = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -35,7 +44,7 @@ const Slider2 = () => {
       onChange={(index) => setCurrentSlide(index)}
       selectedItem={currentSlide}
       onClickItem={(index) => setCurrentSlide(index)}
-      onInit={() => setTotalSlides(6)}
+      onInit={() => setTotalSlides()}
     >
       <div style={{marginLeft: "4em",marginBottom: "2em" ,width:"150px", height:"50px"}}>
       <img  src={magic}/>
@@ -71,6 +80,38 @@ const Slider2 = () => {
       </div>
       <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
       <img  src={mercedes}/>
+      
+      </div> 
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={accenture}/>
+      
+      </div> 
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={airb}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={atlass}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={aws}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={booking}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={kpmg}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={cnbc}/>
+      
+      </div>
+      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
+      <img  src={cisco}/>
       
       </div>
      

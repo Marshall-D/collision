@@ -6,7 +6,7 @@ import Jobs from '../Attendees/Jobs';
 import Bookings from '../Bookings/Bookings';
 import ExploreContent from '../Content/ExploreContent';
 import MasterClass from '../Content/Masterclass';
-import QandA from '../Content/QandA';
+// import QandA from '../Content/QandA';
 
 import Home from '../Home/Home';
 import Investor from '../Investors/Investor';
@@ -22,7 +22,7 @@ import Networking from '../WhyCollision/Networking';
 import Reasons from '../WhyCollision/Reasons';
 import TeamBuilding from '../WhyCollision/TeamBuilding';
 import Essentials from './Essentials';
-import Mobile from './Mobile2';
+import Mobile from './Mobile';
 import WomenTech from './WomenTech';
 
 // import { Outlet } from 'react-router-dom'

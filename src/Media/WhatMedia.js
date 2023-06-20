@@ -1,3 +1,4 @@
+import SliderBoss from "../Attendees/SliderBoss";
 import Trusted from "../Bookings/Trusted";
 import DownloadSection from "../Home/DownloadSection";
 import Footer from "../Home/Footer";
@@ -10,6 +11,10 @@ import Section5 from "../Home/Section5";
 import Section6 from "../Home/Section6";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import HeroMediaWhat from "./HeroMediaWhat";
+import MediaSpeaker from "./MediaSpeaker";
+import Section3WhatMedia from "./Section3WhatMedia";
+import SliderWhatMedia from "./SliderWhatMedia";
 
 
 function WhatMedia() {
@@ -18,38 +23,15 @@ function WhatMedia() {
       <div style={{ width: "100%" }}>
       <Header/>
     </div>
-    <Hero/>
-    <Slider2/>
-    <Section3/> 
-    <Speaker2/>
+    <HeroMediaWhat/>
+    <SliderWhatMedia/>
+
+    <Section3WhatMedia/> 
+<MediaSpeaker/>
     <DownloadSection/>
 
-    {/* <Section2/>
-    <p>collision media goes here</p>
-    <Section4/> */}
 
-
-    {/* <Section3/>
-    <Trusted/>
-    <Speaker2/> */}
-    
-
-    {/* <Section6/> 
-     <Section3/>
-    <Slider2/>
-
-    <Hero/>
-   */}
-
-
-
-    {/* <Section2/>
-    <Slider/>
-    <DownloadSection/>
-    <Section3></Section3>
-    <Section4/>
-    <Section5/>
-    */}
+  
     <Footer />
 
     </div>    );

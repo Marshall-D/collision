@@ -23,6 +23,13 @@ import Section6 from "../Home/Section6";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import SpeakerTableHome from "../Home/SpeakerTableHome";
+import HeroLead from "./HeroLead";
+import Section2Lead from "./Section2Lead";
+import Section3Lead from "./Section3Lead";
+import Section3Lead2 from "./Section3Lead2";
+import Section4Lead from "./Section4Lead";
+import SliderLead from "./SliderLead";
 
 function Lead() {
     return (
@@ -30,35 +37,17 @@ function Lead() {
       <div style={{ width: "100%" }}>
       <Header />
     </div>
-    <Hero/>
-    <Slider/>
-    <Section2/>
-    <Section3/>
-    <Speaker2/>
+    <HeroLead/>
+    <SliderLead/>
+    <Section2Lead/>
+    <Section3Lead/>
+    <Section3Lead2/>
+    <SpeakerTableHome/>
     <Slider2/>
-    <Section4/>
+    <Section4Lead/>
     <DownloadSection/>
 
 
-{/*   
- 
-    <Section2/>
-      */}
-
-    {/* 
-
- */}
-
-    {/*
-    <Slider2/>
- */}
-
-
-    {/*
-    <DownloadSection/>
-    <Section4/>
-    <Section5/>
-    */}
     <Footer/>
 
     </div>    );

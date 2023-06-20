@@ -2,6 +2,8 @@ import Footer from "../Home/Footer";
 import Header from "../Home/Header";
 import Hero from "../Home/Hero";
 import Speaker2 from "../Home/Speaker2";
+import HeroAtt from "./HeroAtt";
+import Speaker2Att from "./Speaker2Att";
 
 
 function Fattendee() {
@@ -10,17 +12,8 @@ function Fattendee() {
       <div style={{ width: "100%" }}>
       <Header/>
     </div>
-    <Hero/>
-    <Speaker2/>
-
-    {/* <Section2/>
-    <Slider/>
-    <DownloadSection/>
-    <Slider2/>
-    <Section3></Section3>
-    <Section4/>
-    <Section5/>
-    <Section6/> */}
+    <HeroAtt/>
+    <Speaker2Att/>
     <Footer />
 
     </div>    );

@@ -5,7 +5,7 @@ function Footer() {
   return (
     <div style={{backgroundColor:"black"}}>
       <footer role="contentinfo" className="content_info">
-        <div style={{margin:"2em"}} >
+        <div style={{margin:"2em",paddingTop:"1em"}} >
           <div style={{marginBottom: "4em"}}>
           <a href="/" style={{color: "white"}}>Company</a>
 

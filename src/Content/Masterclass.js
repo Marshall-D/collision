@@ -10,6 +10,7 @@ import Section6 from "../Home/Section6";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import HeroMasterclass from "./HeroMasterclass";
 
 
 function MasterClass() {
@@ -18,7 +19,7 @@ function MasterClass() {
       <div style={{ width: "100%" }}>
       <Header/>
     </div>
-    <Hero/>
+    <HeroMasterclass/>
     <p >
     masterclass details go here
     </p>
