@@ -1,12 +1,14 @@
+import amy from "../images/amy.jpg";
+import afterhours from "../images/afterhours.jpeg";
+import carmelo from "../images/carmelo.jpg";
 const Section4 = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section style={{ backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
       <div>
         <div>
           <img
             style={{ width: "100%", height: "200px" }}
-            src="https://web-summit-library.imgix.net/collision/2323/02/Carmelo-Anthony_NBA-All-Star-Entrepreneur_Centre-Stage-2022.jpg?auto=compress%2Cformat&amp;ixlib=php-3.3.0&amp;s=f05bb0ffa8c0fb6fcfceae3cf8f2463e"
-            alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
+            src={carmelo}
             loading="eager"
           />
         </div>
@@ -46,8 +48,7 @@ const Section4 = () => {
           <div>
             <img
               style={{ width: "100%", height: "150px" }}
-              src="https://web-summit-library.imgix.net/collision/2323/02/Carmelo-Anthony_NBA-All-Star-Entrepreneur_Centre-Stage-2022.jpg?auto=compress%2Cformat&amp;ixlib=php-3.3.0&amp;s=f05bb0ffa8c0fb6fcfceae3cf8f2463e"
-              alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
+              src={afterhours}
               loading="eager"
             />
           </div>
@@ -55,8 +56,7 @@ const Section4 = () => {
         <div>
           <img
             style={{ width: "100%", height: "200px" }}
-            src="https://web-summit-library.imgix.net/collision/2323/02/Carmelo-Anthony_NBA-All-Star-Entrepreneur_Centre-Stage-2022.jpg?auto=compress%2Cformat&amp;ixlib=php-3.3.0&amp;s=f05bb0ffa8c0fb6fcfceae3cf8f2463e"
-            alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
+            src={amy}
             loading="eager"
           />
         </div>

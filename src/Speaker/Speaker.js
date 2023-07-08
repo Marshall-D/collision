@@ -9,7 +9,7 @@ const Speaker = () => {
 <div>
 <Header2/>
 <HeroSpeaker/>
-<h2 style={{ marginLeft :"1em", color: "blue" }}>Meet our 2023 speakers</h2>
+<h2 style={{ marginLeft :"1em", color: "blue" }}>MEET OUR 2023 SPEAKERS</h2>
 
 <Speaker2Att/>
 <Footer/>

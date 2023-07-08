@@ -1,4 +1,8 @@
-import network from "../images/home/Landing_Amplify.jpg";
+import connect from "../images/team/CC21_connect.jpg";
+import grow from "../images/team/CC21_grow.jpg";
+import learn from "../images/team/CC21_learn.jpg";
+import share from "../images/team/CC21_share.jpg";
+
 
 const Section3Team = () => {
   return (
@@ -6,12 +10,12 @@ const Section3Team = () => {
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={connect} />
           </div>
           <span>
             <h3>CONNECT</h3>
             <div>
-            Re-energise your team with valuable <a href="/why-collision/networking" target="_blank">new connections</a> . Our software makes it easy to find the people you should meet.
+            Re-energise your team with valuable new connections. Our software makes it easy to find the people you should meet.
 
             </div>
           </span>
@@ -20,15 +24,15 @@ const Section3Team = () => {
          
           <span>
             <h3>LEARN</h3>
-            <div>Gain some <a href="/why-collision/learning-and-development" target="_blank">new perspectives</a> from the biggest players in your industry, and share your insights at your next team meeting.</div>
+            <div>Gain some new perspectives from the biggest players in your industry, and share your insights at your next team meeting.</div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={learn} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={share} />
           </div>
           <span>
             <h3>SHARE</h3>
@@ -39,10 +43,10 @@ const Section3Team = () => {
          
           <span>
             <h3>GROW</h3>
-            <div>Now is the perfect time to <a href="/convince-your-boss" target="_blank">reward your team</a> for their hard work over the last year. Collision offers countless opportunities for professional development.</div>
+            <div>Now is the perfect time to reward your team for their hard work over the last year. Collision offers countless opportunities for professional development.</div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={grow} />
           </div>
         </div>
       </div>

@@ -4,7 +4,7 @@ const Section6Boss = () => {
   return (
     <section className="formSection">
       <div className="container">
-        <h2>Show your manager why you shoudlnt miss collision</h2>
+        <h2>SHOW YOUR MANAGER WHY YOU SHOULDN'T MISS COLLISION</h2>
         <div class="notHero">
           <form class="form two-cols" novalidate="">
             <div className="form_field">
@@ -19,9 +19,7 @@ const Section6Boss = () => {
                   autocomplete="new-password"
                   maxlength="100"
                   data-field-label="Email address"
-                  value=""
                 />
-                {/* <span className="floating-Label">Email address*</span> */}
               </div>
             </div>
 
@@ -37,16 +35,13 @@ const Section6Boss = () => {
                   autocomplete="new-password"
                   maxlength="100"
                   data-field-label="First name"
-                  value=""
                 />
-                {/* <span class/</div>="floatingLabel__label">First name*</span> */}
               </div>
             </div>
-            
+
             <div style={{ paddingTop: "1em" }}>
               <p className="form-text">
-                <span
-                 >
+                <span>
                   By submitting, you agree to receive email communications from
                   Collision, including upcoming promotions and discounted
                   tickets, news, and access to exclusive invite-only events.
@@ -62,7 +57,6 @@ const Section6Boss = () => {
               </span>
               <div className="input-container" style={{ paddingTop: "1em" }}>
                 <div style={{ marginRight: "1em" }}>
-                  {/* class="radioField"> */}
                   <input
                     type="radio"
                     id="field_94293034---5-0"
@@ -84,7 +78,6 @@ const Section6Boss = () => {
                 </div>
               </div>
             </div>
-        
 
             <button className="btn">Download Information Pack</button>
           </form>

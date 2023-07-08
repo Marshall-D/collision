@@ -1,15 +1,15 @@
 .container{
-    width:auto
-}
+margin: 1em;}
 .inner-container{
-    margin:5px;
+    /* margin:5px; */
     display : inline-flex;
 }
-.image-container{
+.image-contain{
     width: 120px;
     height: 130px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
+
 .image-text{
     /* font-style: bold; */
     font-weight: 4000px;

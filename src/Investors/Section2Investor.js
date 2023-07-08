@@ -11,11 +11,11 @@ const Section2Investor = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <h2 style={{margin: "0", color: "black"}}>Why  attend Collision ?</h2>
+            <h2 style={{margin: "0", color: "black"}}>WHY ATTEND COLLISION ?</h2>
           </div>
           <div className="col-md-7" style={{alignItems: "center", color: "black"}}>
             <p>
-            Collision brings together the people and companies redefining the global tech industry. Get investor access and engage with expert investors from the world’s most influential funds, and meet the fastest-growing startups. Join us this June.
+            Collision brings together the people and companies redefining the global tech industry. Get investor access and engage with expert investors from the world’s most influential funds, and meet the fastest-growing startups. Join us this October.
             </p>
            
           </div>

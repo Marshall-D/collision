@@ -4,7 +4,7 @@ import leap from "../images/leap.jpg";
 import brad from "../images/brad.jpg";
 const Section4Lead = () => {
     return (
-      <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+      <section style={{ backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
         <div>
           <div>
             <img

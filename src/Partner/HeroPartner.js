@@ -1,5 +1,6 @@
 import "../styles/home/Home.css";
 import qanda from "../images/qnadasvg.svg";
+import { Link } from "react-router-dom";
 
 const HeroPartner = () => {
   return (
@@ -14,7 +15,7 @@ const HeroPartner = () => {
           <div className="row">
             <div className="col-md">
               <h1 className="full ">
-                Meet The World- Leading Companies joining us at Coliison 2023{" "}
+                Join The World's Leading Companies at Coliison 2023{" "}
               </h1>
             </div>
           </div>
@@ -25,12 +26,16 @@ const HeroPartner = () => {
                 something about Collision works for our global partners.
                 <br />
                 <br />
-                Exhibition space at Collision 2023 is sold out. Get in touch
-                with our specialist team today to{" "}
-                <a
-                 href="/" target="_blank">
-                  secure your partnership for 2024
-                </a>{" "}
+               
+                <Link
+                className="hero-btn-red "
+                to="https://form.jotform.com/231143699159262"
+                href="/tickets/attendees"
+                rel=""
+                target=""
+              >
+                Book Partner tickets
+              </Link>
               </p>
             </div>
           </div>

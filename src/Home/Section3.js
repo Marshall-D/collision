@@ -1,4 +1,7 @@
-import network from "../images/home/Landing_Amplify.jpg";
+import amplify from "../images/home/Landing_Amplify.jpg";
+import network from "../images/home/Landing_Network.jpg";
+import lead from "../images/home/Landing_Lead-generation.jpg";
+import learn from "../images/home/Landing_Learn.jpg";
 
 const Section3 = () => {
   return (
@@ -32,12 +35,12 @@ const Section3 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={learn} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={lead} />
           </div>
           <span>
             <h3>Lead Generation</h3>
@@ -63,7 +66,7 @@ const Section3 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img style={{ width: "100px", height: "100px" }} src={amplify} />
           </div>
         </div>
       </div>

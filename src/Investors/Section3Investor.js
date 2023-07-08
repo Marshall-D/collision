@@ -12,7 +12,7 @@ const Section3Investor = () => {
             ></span>
           </div>
           <span>
-            <h3>Dealflow</h3>
+            <h3>DEALFLOW</h3>
             <div>
             Explore new markets, conduct due diligence, and arrange meetings via our filterable startup database. Our app facilitates sourcing, screening, and scheduling with promising new tech startups.
             </div>
@@ -20,7 +20,7 @@ const Section3Investor = () => {
         </div>
         <div style={{ display: "inline-flex" }}>
           <span>
-            <h3>Investor to Startup Meetings </h3>
+            <h3>INVESTOR TO STARTUP MEETINGS </h3>
             <div>
             Our team of analysts will plan your agenda for you, scheduling pre-arranged meetings for you with the startups most relevant to you or your firm. 
             </div>
@@ -40,7 +40,7 @@ const Section3Investor = () => {
             ></span>
           </div>
           <span>
-            <h3>LP Networking</h3>
+            <h3>LP NETWORKING</h3>
             <div>
               {" "}
               The world’s leading pension funds, endowment funds and family offices attend Collision. Connect online with LPs through pre-arranged meetings and roundtables.            </div>
@@ -48,7 +48,7 @@ const Section3Investor = () => {
         </div>
         <div style={{ display: "inline-flex" }}>
           <span>
-            <h3>Venture content</h3>
+            <h3>VENTURE CONTENT</h3>
             <div>
               {" "}
               Keep up with new VC trends and tech with our dedicated investor content. Participate in curated roundtable discussions, and engage with the people driving change in investment.

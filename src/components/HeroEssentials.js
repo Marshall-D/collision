@@ -1,5 +1,5 @@
 import "../styles/home/Home.css";
-// import qanda from "../../images/qnadasvg.svg";
+import { Link } from "react-router-dom";
 
 const HeroEssentials = () => {
   return (
@@ -25,14 +25,14 @@ const HeroEssentials = () => {
             </div>
           
             <div className="col-md-6-center">
-              <a
+            <Link
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Book tickets
-              </a>
+              </Link>
             </div>
           </div>
         </div>

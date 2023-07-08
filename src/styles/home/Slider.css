@@ -64,3 +64,37 @@
         font-style: italic;
         margin-right:1%;
     }
+
+    .main{
+    /* margin: 4em; */
+    margin-bottom: 2em; 
+    /* margin-right:4em; */
+    /* width:30px; */
+    height:100px;
+    display: flex;
+    /* padding-left: 6em; */
+    align-items: center;
+    justify-content: center;
+    width: 426px;
+    /* box-sizing: border-box; */
+    /* flex-shrink: 0; */
+    /* position: relative; */
+
+    }
+
+    .main_img{
+   width: 200px;
+
+    }
+    
+   
+    
+    @media screen and (width > 1000px) {
+        .main_img{
+            width: 200px;
+         
+             }
+    }
+    
+    @media screen and (width > 1000px) {
+    }

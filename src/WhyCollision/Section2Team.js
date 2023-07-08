@@ -15,7 +15,7 @@ const Section2Team = () => {
           </div>
           <div className="col-md-7" style={{alignItems: "center", color: "#fff"}}>
             <p>
-            Teams from all over the world will come together next June at Collision. They’ll experience inspiring content covering every industry, and network with experts in their field and beyond. 
+            Teams from all over the world will come together next October at Collision. They’ll experience inspiring content covering every industry, and network with experts in their field and beyond. 
             </p>
             <p>
             <a href="/partners" rel="noopener" target="_blank">Join us with your company in Toronto</a>

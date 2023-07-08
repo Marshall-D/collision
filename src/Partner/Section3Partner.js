@@ -8,7 +8,7 @@ const Section3Partner = () => {
   return (
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "inline-flex",marginBottom:"4em" }}>
           <div style={{ marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={brand} />
           </div>
@@ -19,7 +19,7 @@ const Section3Partner = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "inline-flex",marginBottom:"4em"  }}>
          
           <span>
             <h3>THOUGHT LEADERSHIP</h3>
@@ -31,7 +31,7 @@ const Section3Partner = () => {
             <img style={{ width: "100px", height: "100px" }} src={thought} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "inline-flex",marginBottom:"4em"  }}>
           <div style={{ marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={network} />
           </div>
@@ -42,7 +42,7 @@ const Section3Partner = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "inline-flex",marginBottom:"4em"  }}>
          
           <span>
             <h3>LEAD GENERATION</h3>

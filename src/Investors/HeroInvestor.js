@@ -1,5 +1,5 @@
 import "../styles/home/Home.css";
-import qanda from "../images/qnadasvg.svg";
+import { Link } from "react-router-dom";
 
 const HeroInvestor = () => {
   return (
@@ -23,7 +23,7 @@ const HeroInvestor = () => {
                 founders and fellow top-tier firms through content, one-to-one
                 meetings and roundtable discussions. Secure your investor ticket
                 today, and unlock unparalleled opportunities at Collision this
-                June.
+                October.
                 <br />
                 <br />
                 Please note: Investor tickets are subject to our investor
@@ -33,15 +33,15 @@ const HeroInvestor = () => {
               </p>
             </div>
             <div className="col-md-6-center">
-              <a
+              <Link
                 style={{ marginTop: "2em", height: "60px" }}
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 book investor tickets{" "}
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import amy from "../images/amy.jpg";
 import afterhours from "../images/afterhours.jpeg";
 const Section4Media = () => {
     return (
-      <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+      <section style={{backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
         <div>
           <div>
             <img

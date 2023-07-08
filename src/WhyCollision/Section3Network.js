@@ -1,38 +1,66 @@
 import inc from "../images/Media/Inc-logo.png";
 import cna from "../images/Media/cna-logo.png";
 import globe from "../images/Media/the-globe-and-mail_katka.png";
+import wsj from "../images/Media/the-wall-street-journal.png";
+import dt from "../images/Media/digital-trends-logo.jpeg";
+import recode from "../images/Media/recode.png";
 
 const Section3Network = () => {
   return (
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={inc} />
+       
+      <div style={{ display: "inline-flex" }}>
+          <div style={{ marginTop: "5em",marginRight:"1em" }}>
+            <img style={{ width: "100px", height: "100px" }} src={wsj} />
           </div>
           <span>
-            <div>
-            ‘‘You'll likely leave feeling inspired, educated and connected to a great community.’’            </div>
+            <h3>
+              “Collision is a frenetic stream of 20-minute sessions on a wide
+              range of topics, from technology and digital media to music,
+              politics and culture.”
+            </h3>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
-         
+        <div style={{marginTop:"3em", display: "inline-flex" }}>
           <span>
-            <div>
-            ‘‘Collision redefines the way in which people and companies from the global technology industry gather.’’            </div>
+            <h3>"The stunning future of tech conferences." </h3>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginLeft: "1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={cna} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={globe} />
+        <div style={{ marginTop:"2em",display: "inline-flex" }}>
+          <div style={{ marginTop: "1em",marginRight:"2em" }}>
+            <img style={{ width: "100px", height: "100px" }} src={inc} />
           </div>
           <span>
-            <div>
-            ‘‘Collision’s app includes chat capabilities that conference delegates can use for networking.’’            </div>
+            <h3>
+              "Collision continues to be the most frequent answer when I ask
+              others about the conference they most want to attend this year."
+            </h3>
           </span>
+        </div>
+        <div style={{marginBottom:"2em",marginTop:"2em", display: "inline-flex" }}>
+          <span>
+            <h3>"One of the best shows shows for up-and-coming startups"</h3>
+            <div>
+              "Collision has become one of the best shows for up-and-coming
+              startups, with a conference program that caters to them and a
+              broader industry audience wanting to keep up with what’s new in
+              tech.
+            </div>
+            <br />
+            <br />
+            <div>
+              "I like to go to this show just to talk to young entrepreneurs
+              from all over the world who come to pitch their startups and get
+              noticed."
+            </div>
+          </span>
+          <div style={{ marginTop: "7em" }}>
+            <img style={{ width: "100px", height: "100px" }} src={globe} />
+          </div>
         </div>
        
       </div>

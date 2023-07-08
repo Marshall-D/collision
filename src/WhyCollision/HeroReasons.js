@@ -1,4 +1,6 @@
 import "../styles/home/Home.css";
+import { Link } from "react-router-dom";
+
 // import qanda from "../../images/qnadasvg.svg";
 
 const HeroReasons = () => {
@@ -27,18 +29,18 @@ const HeroReasons = () => {
               <p>
 
 
-              Join us in Toronto this June to make meaningful connections, find valuable leads, and get access to premium content.              </p>
+              Join us in Toronto this October to make meaningful connections, find valuable leads, and get access to premium content.              </p>
             </div>
           
             <div className="col-md-6-center">
-              <a
+              <Link
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Book tickets
-              </a>
+              </Link>
             </div>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import "../styles/home/Home.css";
 import qanda from '../images/qnadasvg.svg'
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -29,26 +30,26 @@ const Hero = () => {
                 the global tech industry.
                 <br />
                 <br />
-                Join them in Toronto this June.
+                Join them in Toronto this October.
               </p>
             </div>
             <div className="col-md-6-center">
-              <a
+              <Link
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Book tickets
-              </a>
-              <a
+              </Link>
+              <Link
                 className="hero-btn-white "
-                href="/partners"
+                to="/partners"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 Partner with us
-              </a>
+              </Link>
             </div>
           </div>
         </div>

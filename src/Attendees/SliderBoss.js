@@ -12,49 +12,46 @@ const SliderBoss = () => {
     }
   }, [currentSlide, totalSlides]);
   return (
-    <div style={{backgroundColor:"blue"}}>
-
-    <Carousel
-      className="slider"
-      autoPlay={true}
-      interval={3000}
-      showArrows={true}
-      showStatus={false}
-      showThumbs={false}
-      showIndicators={false}
-      onChange={(index) => setCurrentSlide(index)}
-      selectedItem={currentSlide}
-      onClickItem={(index) => setCurrentSlide(index)}
-      onInit={() => setTotalSlides(6)}
-    >
-
-      <div   
->
-        <p className="slider-h2-qa">“The stunning future of tech conferences.”</p>
-        <p className="slider-p-qa">Digital trends</p>
-      </div>
-      <div>
-        <p className='slider-h2-qa'>“The world’s best speakers.”
-</p>
-        <p className="slider-p-qa">Inc. Magazine</p>
-      </div>
-      <div>
-        <p className='slider-h2-qa'>"Coachelaa for geeks"</p>
-        <p className="slider-p-qa">BlogTO</p>
-      </div>
-      <div>
-        <p className='slider-h2-qa'>"Everyone is at collision"</p>
-        <p className="slider-p-qa">Fininancial Post</p>
-      </div>
-      <div>
-        <p className='slider-h2-qa'>""It may be the  world’s most millenial meetup</p>
-        <p className="slider-p-qa">Wall Street Journal</p>
-      </div>
-    
-
-    </Carousel>
+    <div style={{ backgroundColor: "blue" }}>
+      <Carousel
+        className="slider"
+        autoPlay={true}
+        interval={3000}
+        showArrows={true}
+        showStatus={false}
+        showThumbs={false}
+        showIndicators={false}
+        onChange={(index) => setCurrentSlide(index)}
+        selectedItem={currentSlide}
+        onClickItem={(index) => setCurrentSlide(index)}
+        onInit={() => setTotalSlides(6)}
+      >
+        <div>
+          <p className="slider-h2-qa">
+            “The stunning future of tech conferences.”
+          </p>
+          <p className="slider-p-qa">Digital trends</p>
+        </div>
+        <div>
+          <p className="slider-h2-qa">“The world’s best speakers.”</p>
+          <p className="slider-p-qa">Inc. Magazine</p>
+        </div>
+        <div>
+          <p className="slider-h2-qa">"Coachelaa for geeks"</p>
+          <p className="slider-p-qa">BlogTO</p>
+        </div>
+        <div>
+          <p className="slider-h2-qa">"Everyone is at collision"</p>
+          <p className="slider-p-qa">Fininancial Post</p>
+        </div>
+        <div>
+          <p className="slider-h2-qa">
+            ""It may be the world’s most millenial meetup
+          </p>
+          <p className="slider-p-qa">Wall Street Journal</p>
+        </div>
+      </Carousel>
     </div>
-
   );
 };
 

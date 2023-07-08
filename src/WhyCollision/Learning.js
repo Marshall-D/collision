@@ -41,8 +41,7 @@ function Learning() {
     <Section2Learning/>
     <Section3Learning/>
     <Speaker2Att/>
-    <Section2Learning2/>
-    <Slider/>
+ 
 
     <Slider2Learning/>
     <DownloadSection/>

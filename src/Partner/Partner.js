@@ -34,7 +34,8 @@ function Partner() {
       <SliderPartner/>
       <Section2Partner/>
       <Section3Partner/>
-      <Slider2 />
+      <SliderPartner/>
+
       <Section4Partner />
       <Section6 />
       <Footer />

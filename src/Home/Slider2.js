@@ -31,7 +31,8 @@ const Slider2 = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"blue"}} >
-      <h2 style={{margin: "1em",color:"white"}}> Companies that attend collision  </h2>
+      <h2 style={{margin: "1em",color:"white",  textTransform: "uppercase"
+}}> Companies that attend collision  </h2>
 
     <Carousel
       className="slider"
@@ -45,77 +46,59 @@ const Slider2 = () => {
       selectedItem={currentSlide}
       onClickItem={(index) => setCurrentSlide(index)}
       onInit={() => setTotalSlides()}
-    >
-      <div style={{marginLeft: "4em",marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={magic}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={vogue}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={uber}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={slack}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={siemens}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={shopify}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={sherpa}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={rogers}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={mercedes}/>
-      
-      </div> 
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={accenture}/>
-      
-      </div> 
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={airb}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={atlass}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={aws}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={booking}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={kpmg}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={cnbc}/>
-      
-      </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={cisco}/>
-      
-      </div>
-     
-    </Carousel>
+    > <div>
+    <img style={{ maginTop:"4em", width: "200px" }} src={magic} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }} src={vogue} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }}  src={uber} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }}  src={slack} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }} src={siemens} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }} src={shopify} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }} src={sherpa} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }} src={rogers} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }}  src={mercedes} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }}  src={accenture} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }}  src={airb} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }} src={atlass} />
+  </div>
+  <div>
+    {" "}
+    <img  style={{ width: "200px" }} src={aws} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }}  src={booking} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }} src={kpmg} />
+  </div>
+  <div>
+    <img style={{ width: "200px" }}  src={cnbc} />
+  </div>
+  <div>
+    <img  style={{ width: "200px" }} src={cisco} />
+  </div>
+</Carousel>
     </div>
 
   );

@@ -12,7 +12,6 @@ function Header2() {
        src={logo}
        />
       </div>
-      <div style={{color:"white", marginLeft: "7em"}}>menu</div>
     </div>
   );
 }

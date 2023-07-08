@@ -7,45 +7,45 @@ const Section3Lead = () => {
   return (
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+      <div style={{ display: "inline-flex" }}>
+          <div style={{ marginTop: "5em",marginRight:"1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={kpmg} />
           </div>
           <span>
-            <div>
-            "In three days, we made new contacts and collected solid leads that convert into valuable business relationships."
-            </div>
+            <h3>
+            "In three days, we made new contacts and collected solid leads that convert into valuable business relationships."            </h3>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
-         
+        <div style={{marginTop:"3em", display: "inline-flex" }}>
           <span>
-            <div>
-            "We met so many startups, potential applicants, and business partners within those three days. It was very successful."
-            </div>
+            <h3>"We met so many startups, potential applicants, and business partners within those three days. It was very successful." </h3>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginLeft: "1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={benz} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{ marginTop:"2em",display: "inline-flex" }}>
+          <div style={{ marginTop: "1em",marginRight:"2em" }}>
             <img style={{ width: "100px", height: "100px" }} src={hack} />
           </div>
           <span>
-            <div>
-            "We know that between the content being delivered, Collision’s reach, and the attendance, we will get the engagement we are looking for with small business leaders."
-            </div>
+            <h3>
+            "We know that between the content being delivered, Collision’s reach, and the attendance, we will get the engagement we are looking for with small business leaders."            </h3>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
-         
+        <div style={{marginBottom:"2em",marginTop:"2em", display: "inline-flex" }}>
           <span>
+            <h3>"One of the best shows shows for up-and-coming startups"</h3>
+            <div>
+            ‘‘The significant investor face time made this one of the most strategic experiences for our company.’’
+            </div>
+            <br />
+            <br />
             <div>
             "We're always excited to attend Collision because we know we're going to be rubbing shoulders with some of the fastest-growing tech companies in the world."
             </div>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "7em" }}>
             <img style={{ width: "100px", height: "100px" }} src={cisco} />
           </div>
         </div>

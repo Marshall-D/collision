@@ -39,7 +39,7 @@ function TrustedInvestor() {
           </tr>
           <tr>
             <td>
-              <div className="image">
+              <div className="images">
                 <img className="image-containers" src={bank} />
                 
               </div>

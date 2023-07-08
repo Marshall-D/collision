@@ -8,6 +8,7 @@ import Section3 from "../Home/Section3";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
 import Speaker2 from "../Home/Speaker2";
+import SpeakerTableHome from "../Home/SpeakerTableHome";
 import HeroReasons from "./HeroReasons";
 import Slider2Reasons from "./Slider2Reasons";
 import SliderReasons from "./SliderReasons";
@@ -22,7 +23,7 @@ function Reasons() {
     <SliderReasons/>
     <Section3/>
     <Slider2Reasons/>
-    <Speaker2/>
+    <SpeakerTableHome/>
     <Slider2/>
 <DownloadSection/>
     <Footer/>

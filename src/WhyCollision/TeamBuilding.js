@@ -14,9 +14,7 @@
 import DownloadSection from "../Home/DownloadSection";
 import Footer from "../Home/Footer";
 import Header from "../Home/Header";
-import Hero from "../Home/Hero";
-import Section2 from "../Home/Section2";
-import Section3 from "../Home/Section3";
+
 import Section4 from "../Home/Section4";
 import Slider from "../Home/Slider";
 import Slider2 from "../Home/Slider2";
@@ -39,8 +37,8 @@ function TeamBuilding() {
     <Section2Team2/>
     <Section3Team/>
     <SliderTeam/>
-    <Section2Team3/>
-    <SliderTeam/>
+    {/* <Section2Team3/>
+    <SliderTeam/> */}
 
 
     <DownloadSection/> 

@@ -1,5 +1,6 @@
 import "../styles/home/Home.css";
 import qanda from "../images/qnadasvg.svg";
+import { Link } from "react-router-dom";
 
 const HeroWomen = () => {
   return (
@@ -31,7 +32,7 @@ const HeroWomen = () => {
               </p>
               <br />
               <br />
-              Collision is returning to Toronto this June.
+              Collision is returning to Toronto this October.
             </div>
             <div className="col-md-6-center">
               <div className="form_field">
@@ -46,7 +47,7 @@ const HeroWomen = () => {
                     autocomplete="new-password"
                     maxlength="100"
                     data-field-label="Email address"
-                    value=""
+                    // value=""
                   />
                   {/* <span className="floating-Label">Email address*</span> */}
                   <br />
@@ -64,7 +65,7 @@ const HeroWomen = () => {
                     autocomplete="new-password"
                     maxlength="100"
                     data-field-label="Email address"
-                    value=""
+                    // value=""
                   />
                   {/* <span className="floating-Label">Email address*</span> */}
                 </div>
@@ -110,15 +111,15 @@ const HeroWomen = () => {
                 </div>
               </div>
 
-              <a
+              <Link
                 style={{ marginTop: "2em", height: "60px" }}
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
               JOIN THE WOMEN IN TECH NETWORK
-              </a>
+              </Link>
             </div>
           </div>
         </div>

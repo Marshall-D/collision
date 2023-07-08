@@ -31,6 +31,7 @@ import Reasons from "./WhyCollision/Reasons";
 import TeamBuilding from "./WhyCollision/TeamBuilding";
 import WomenTech from "./components/WomenTech";
 import QandA from "./Content/QandA/QandA";
+import Contact from "./components/Contact";
 
 const router = createBrowserRouter([
   {
@@ -158,6 +159,10 @@ const router = createBrowserRouter([
         path: "/womenintech",
         element: <WomenTech/>,
       },
+      {
+        path: "/contact",
+        element: <Contact/>,
+      }
     ],
   },
 ]);

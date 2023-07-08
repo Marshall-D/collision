@@ -4,7 +4,7 @@ import inc from "../images/Media/Inc-logo.png";
 import recode from "../images/Media/recode.png";
 import ent from "../images/Media/entrepreneur-logo-2.png";
 import huff from "../images/Media/Huffington-post-logo.png";
-import forbes from "../images/Media/media_forbes-1.png";
+import forbes from "../images/Media/forbes-new.png";
 import usa from "../images/Media/usatoday.png";
 import ars from "../images/Media/ars-technica-logo.png";
 import cna from "../images/Media/cna-logo.png";
@@ -21,10 +21,10 @@ const Section3WhatMedia = () => {
   return (
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
-        <h2 style={{ color: "black" }}> They have experienced our events</h2>
+        <h2 style={{ color: "black" }}> THEY'VE EXPERIENCED OUR EVENTS</h2>
 
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "5em",marginRight:"1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={wsj} />
           </div>
           <span>
@@ -35,16 +35,16 @@ const Section3WhatMedia = () => {
             </h3>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{marginTop:"3em", display: "inline-flex" }}>
           <span>
             <h3>"The stunning future of tech conferences." </h3>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginLeft: "1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={dt} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{ marginTop:"2em",display: "inline-flex" }}>
+          <div style={{ marginTop: "1em",marginRight:"2em" }}>
             <img style={{ width: "100px", height: "100px" }} src={inc} />
           </div>
           <span>
@@ -54,7 +54,7 @@ const Section3WhatMedia = () => {
             </h3>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{marginBottom:"2em",marginTop:"2em", display: "inline-flex" }}>
           <span>
             <h3>"One of the best shows shows for up-and-coming startups"</h3>
             <div>
@@ -71,12 +71,12 @@ const Section3WhatMedia = () => {
               noticed."
             </div>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "7em" }}>
             <img style={{ width: "100px", height: "100px" }} src={recode} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{marginBottom: "2em", display: "inline-flex" }}>
+          <div style={{ marginTop: "8em",marginRight:"1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={ent} />
           </div>
           <span>
@@ -96,7 +96,7 @@ const Section3WhatMedia = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginBottom: "2em",display: "inline-flex" }}>
           <span>
             <h3>"A global gathering"</h3>
 
@@ -116,8 +116,10 @@ const Section3WhatMedia = () => {
             <img style={{ width: "100px", height: "100px" }} src={huff} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+
+        {/* // where you are */}
+        <div style={{marginBottom:"2em", display: "inline-flex" }}>
+          <div style={{marginRight:"1em", marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={inc} />
           </div>
           <span>
@@ -139,7 +141,7 @@ const Section3WhatMedia = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginBottom:"2em", display: "inline-flex" }}>
           <span>
             <h3>"Startups are Collision’s raison d’être"</h3>
             <div>
@@ -153,8 +155,8 @@ const Section3WhatMedia = () => {
             <img style={{ width: "100px", height: "100px" }} src={forbes} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{ marginBottom:"2em", display: "inline-flex" }}>
+          <div style={{marginRight:"1em",  marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={dt} />
           </div>
           <span>
@@ -173,7 +175,7 @@ const Section3WhatMedia = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginBottom:"2em", display: "inline-flex" }}>
           <span>
             <h3>"A refreshing, outside-the-box treat"</h3>
 
@@ -194,9 +196,9 @@ const Section3WhatMedia = () => {
             <img style={{ width: "100px", height: "100px" }} src={usa} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{marginBottom:"2em", display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={ars} />
+            <img style={{marginRight:"1em", width: "100px", height: "100px" }} src={ars} />
           </div>
           <span>
             <h3>"Interact with chief executives"</h3>
@@ -215,7 +217,7 @@ const Section3WhatMedia = () => {
             </div>
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{marginBottom:"2em", display: "inline-flex" }}>
           <span>
             <h3>"Redefines the way"</h3>{" "}
             <div>
@@ -223,76 +225,76 @@ const Section3WhatMedia = () => {
               companies from the global technology industry gather.''
             </div>
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "4em" }}>
             <img style={{ width: "100px", height: "100px" }} src={cna} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{marginRight:"1em", marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={politico} />
           </div>
           <span>
-          <h3>"Tech Olympics."</h3>
+          <h3 style={{ marginTop: "5em" }} >"Tech Olympics."</h3>
                     
           </span>
         </div>
         <div style={{ display: "inline-flex" }}>
           <span>
-          <h3>"Collision, one of the biggest conferences in tech."</h3>
+          <h3   style={{ marginRight: "1em",marginTop:"4em" }} >"Collision, one of the biggest conferences in tech."</h3>
                       
           </span>
           <div style={{ marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={nbc} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{marginTop: "5em" , display: "inline-flex" }}>
+          <div style={{ marginTop: "1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={bnn} />
           </div>
           <span>
-          <h3>“Leading tech conference is going digital-only.”</h3>
+          <h3 style={{marginLeft:"1em"}}>“Leading tech conference is going digital-only.”</h3>
                     
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginTop: "5em" ,display: "inline-flex" }}>
           <span>
           <h3>"Collision, a major technology conference."</h3>      
               
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "1em" }}>
             <img style={{ width: "100px", height: "100px" }} src={reuters} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={globe} />
+            <img style={{ marginRight: "2em" ,width: "100px", height: "100px" }} src={globe} />
           </div>
           <span>
             <h3>"Collision’s app includes chat capabilities that conference delegates can use for networking."</h3>
             
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginTop: "5em" , display: "inline-flex" }}>
           <span>
           <h3>"Fastest-growing tech conference in North America."</h3>  
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "2em" }}>
             <img style={{ width: "100px", height: "100px" }} src={financial} />
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
+        <div style={{marginTop: "4em" , display: "inline-flex" }}>
+          <div style={{marginRight: "2em" , marginTop: "5em" }}>
             <img style={{ width: "100px", height: "100px" }} src={cbc} />
           </div>
           <span>
           <h3>"Collision draws about 30,000 attendees from all over the globe."</h3>    
           </span>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ marginTop: "3em" , display: "inline-flex" }}>
           <span>
           <h3>“Collision is one of the world's biggest tech conferences”</h3>         
           </span>
-          <div style={{ marginTop: "5em" }}>
+          <div style={{ marginTop: "3em" }}>
             <img style={{ width: "100px", height: "100px" }} src={bloomberg} />
           </div>
         </div>

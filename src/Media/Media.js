@@ -23,10 +23,10 @@ function Media() {
     </div>
     <HeroMedia/>
     <Section2Media/>
-    <p>Press conferences</p>
+    {/* <p>Press conferences</p>
     <p>Media Partners</p>
     <p>Images</p>
-    <p>VIdeos</p>
+    <p>VIdeos</p> */}
     <MediaSpeaker/>
     <Slider2Media/>
     <div style={{marginTop:"-2em"}}>

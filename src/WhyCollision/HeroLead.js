@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/home/Home.css";
 // import qanda from "../../images/qnadasvg.svg";
 
@@ -19,7 +20,7 @@ const HeroLead = () => {
           <div className="row">
             <div className="col-md-6">
               <p className="col-md-6-p">
-              More than 40,000 people, experts in their respective industries, will join us at Collision this June. 
+              More than 40,000 people, experts in their respective industries, will join us at Collision this October. 
                
               </p>
               <br/>
@@ -31,14 +32,14 @@ const HeroLead = () => {
             </div>
           
             <div className="col-md-6-center">
-              <a
+              <Link
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Book tickets
-              </a>
+              </Link>
             </div>
           </div>
         </div>

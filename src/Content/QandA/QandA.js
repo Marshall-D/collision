@@ -27,6 +27,7 @@ function QandA() {
     
     <Heroqanda/>
     <Sliderqa/>
+   
     <Section3qa/>
     <Speakerqa/>
     <Section3qa2/>

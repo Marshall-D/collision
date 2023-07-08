@@ -22,6 +22,8 @@ function Investor() {
     <HeroInvestor/>
     <Section2Investor/>
     <Section3Investor/>
+    <h2 style={{ marginLeft :"1em", color: "blue" }}>THE WORLD'S MOST PROMINENT FIRMS JOIN US</h2>
+
     <TrustedInvestor/>
     <Speaker2Investor/>
     

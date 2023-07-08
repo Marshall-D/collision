@@ -12,7 +12,7 @@ function TopHeader() {
       <div className="header-text">
         ENERCARE CENTRE, TORONTO
         <br />
-        JUNE 26-29, 2023
+        OCTOBER 26-29, 2023
       </div>
     </a>
   );

@@ -5,7 +5,7 @@ import daphne from "../images/daphne.jpg";
 
 const Section4Learning = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section style={{  backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
       <div>
         <div>
           <img

@@ -19,7 +19,7 @@ const Section6 = () => {
                   autocomplete="new-password"
                   maxlength="100"
                   data-field-label="Email address"
-                  value=""
+                  // value=""
                 />
                 {/* <span className="floating-Label">Email address*</span> */}
               </div>
@@ -37,7 +37,7 @@ const Section6 = () => {
                   autocomplete="new-password"
                   maxlength="100"
                   data-field-label="First name"
-                  value=""
+                  // value=
                 />
                 {/* <span class/</div>="floatingLabel__label">First name*</span> */}
               </div>

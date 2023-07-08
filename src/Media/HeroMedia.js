@@ -1,5 +1,6 @@
 import "../styles/home/Home.css";
 import qanda from '../images/qnadasvg.svg'
+import { Link } from "react-router-dom";
 
 const HeroMedia = () => {
   return (
@@ -30,7 +31,7 @@ Join Us As  Media at collision 2023
                 <br />
                 <br />
 
-                Apply for media accreditation and join us in Toronto this June.              </p>
+                Apply for media accreditation and join us in Toronto this October.              </p>
             </div>
             <div className="col-md-6-center">
             <div className="form_field">
@@ -45,20 +46,20 @@ Join Us As  Media at collision 2023
                   autocomplete="new-password"
                   maxlength="100"
                   data-field-label="Email address"
-                  value=""
+                  // value=""
                 />
                 {/* <span className="floating-Label">Email address*</span> */}
               </div>
             </div>
-              <a
+              <Link
               style={{marginTop:"2em", height:"60px"}}
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Apply for  2023 media accreditation.              
-              </a>
+              </Link>
               
             </div>
           </div>

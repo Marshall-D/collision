@@ -35,7 +35,7 @@ const Section4qa = () => {
             </div>
           </div>
         </div>
-        <div style={{ display: "inline-flex" }}>
+        <div style={{ display: "inline-flex",backgroundColor:"blue" }}>
           <div
             style={{ padding: "2em", width: "50%", backgroundColor: "blue" }}
           >

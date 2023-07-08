@@ -16,25 +16,22 @@ import MediaSpeaker from "./MediaSpeaker";
 import Section3WhatMedia from "./Section3WhatMedia";
 import SliderWhatMedia from "./SliderWhatMedia";
 
-
 function WhatMedia() {
-    return (
-      <div>
+  return (
+    <div>
       <div style={{ width: "100%" }}>
-      <Header/>
+        <Header />
+      </div>
+      <HeroMediaWhat />
+      <SliderWhatMedia />
+
+      <Section3WhatMedia />
+      <MediaSpeaker />
+      <DownloadSection />
+
+      <Footer />
     </div>
-    <HeroMediaWhat/>
-    <SliderWhatMedia/>
+  );
+}
 
-    <Section3WhatMedia/> 
-<MediaSpeaker/>
-    <DownloadSection/>
-
-
-  
-    <Footer />
-
-    </div>    );
-  }
-  
-  export default WhatMedia;
+export default WhatMedia;

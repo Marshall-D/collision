@@ -15,7 +15,7 @@ const Section2Media = () => {
           </div>
           <div className="col-md-7" style={{alignItems: "center", color: "#fff"}}>
             <p>
-            Journalists from international media’s household names will take part in Collision this June. Reuters, Adweek, BBC, British Vogue, NBC News, TechCrunch, The New York Times, BuzzFeed, Wall Street Journal, and National Geographic have all attended Collision.
+            Journalists from international media’s household names will take part in Collision this October. Reuters, Adweek, BBC, British Vogue, NBC News, TechCrunch, The New York Times, BuzzFeed, Wall Street Journal, and National Geographic have all attended Collision.
             </p>
             </div>
         </div>

@@ -22,7 +22,7 @@ const Slider2Network = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"blue"}} >
-      <h2 style={{margin: "1em",color:"black", backgroundColor:"white"}}> NETWORKING AT COLLISION  </h2>
+      <h2 style={{margin: "1em",color:"black"}}> NETWORKING AT COLLISION  </h2>
 
     <Carousel
       className="slider"
@@ -37,40 +37,40 @@ const Slider2Network = () => {
       onClickItem={(index) => setCurrentSlide(index)}
       onInit={() => setTotalSlides(6)}
     >
-      <div style={{marginLeft: "4em",marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={magic}/>
+<div>
+      <img  style={{ width: "200px" }}src={magic}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={vogue}/>
+      <div>
+      <img  style={{ width: "200px" }}src={vogue}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={uber}/>
+      <div>
+      <img  style={{ width: "200px" }}src={uber}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={slack}/>
+      <div>
+      <img  style={{ width: "200px" }}src={slack}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={siemens}/>
+      <div>
+      <img  style={{ width: "200px" }} src={siemens}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={shopify}/>
+      <div>
+      <img  style={{ width: "200px" }}src={shopify}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={sherpa}/>
+      <div>
+      <img  style={{ width: "200px" }}src={sherpa}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={rogers}/>
+      <div>
+      <img  style={{ width: "200px" }}src={rogers}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={mercedes}/>
+<div>
+        <img  style={{ width: "200px" }}src={mercedes}/>
       
       </div>
      

@@ -23,6 +23,7 @@ import Section2 from "../Home/Section2";
 import HeroWomen from './HeroWomen';
 import Section2Women from './Section2Women';
 import Section3Women from './Section3Women';
+import SpeakerWomen from './SpeakerWomen';
 
 function WomenTech() {
     return (
@@ -33,7 +34,7 @@ function WomenTech() {
     <HeroWomen/>
     <Section2Women/>
     <Section3Women/>
-    <Speaker2/>
+    <SpeakerWomen/>
 
 
     {/* <Slider/>

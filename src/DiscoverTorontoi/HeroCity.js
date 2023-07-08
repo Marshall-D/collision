@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../styles/home/Home.css";
 // import qanda from "../../images/qnadasvg.svg";
 
@@ -20,7 +21,7 @@ const HeroCity = () => {
             <div className="col-md-6">
               <p className="col-md-6-p">
               Toronto is making a name for itself as one of the world’s most exciting hubs for startups and tech companies. 
-               
+
               </p>
               <br/>
               <br/>
@@ -31,14 +32,14 @@ const HeroCity = () => {
             </div>
           
             <div className="col-md-6-center">
-              <a
+              <Link
                 className="hero-btn-red "
-                href="/tickets/attendees"
+                to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""
               >
                 Book tickets
-              </a>
+              </Link>
             </div>
           </div>
         </div>

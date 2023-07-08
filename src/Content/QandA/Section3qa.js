@@ -3,23 +3,27 @@ import "../../styles/qanda.css";
 const Section3qa = () => {
   return (
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
-      <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
+      <div style={{ marginLeft: "1em", marginRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "6em" }}>
-            <span
-              className="blockline"
-              style={{ width: "50px", height: "10px" }}
-            ></span>
+          <div style={{ marginTop: "6em", marginRight: "2em" }}>
+         
+            <div
+              style={{
+                height: "10px",
+                width: "50px",
+                backgroundColor: "green",
+              }}
+            ></div>
           </div>
           <span>
-            <h3>Questions.Answers.Insight</h3>
-            <div>
+            <h3>Questions.Answers Insight</h3>
+            <p>
               {" "}
               Over three days at Collision, we’ll be hosting tell-all Q&amp;As
               with some of the leading figures in tech, sport and entertainment.
               That burning question you’ve always wanted to ask? This is where
               it gets answered.
-            </div>
+            </p>
           </span>
         </div>
         <div style={{ display: "inline-flex" }}>
@@ -33,25 +37,34 @@ const Section3qa = () => {
               content to autotech and environmental sustainability.
             </div>
           </span>
-          <div style={{ marginTop: "6em" }}>
-            <span
-              className="blocklineblue"
-              style={{ width: "50px", height: "10px" }}
-            ></span>
+          <div style={{ marginTop: "6em", marginLeft: "2em" }}>
+         
+            <div
+              style={{
+                height: "10px",
+                width: "50px",
+                backgroundColor: "yellow",
+              }}
+            ></div>
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
-        <div style={{ marginTop: "6em" }}>
-            <span
-              className="blocklineyellow"
-              style={{ width: "50px", height: "10px" }}
-            ></span>
-          </div>
+        <div style={{ marginTop: "6em", marginRight: "2em" }}>
+         
+         <div
+           style={{
+             height: "10px",
+             width: "50px",
+             backgroundColor: "blue",
+           }}
+         ></div>
+       </div>
           <span>
             <h3>No Filter</h3>
             <div>
               {" "}
-              Our speakers will answer questions from the audience as they come in. This is the most open and honest stage in tech.
+              Our speakers will answer questions from the audience as they come
+              in. This is the most open and honest stage in tech.
             </div>
           </span>
         </div>
@@ -60,14 +73,19 @@ const Section3qa = () => {
             <h3>Stars Showcasing skills</h3>
             <div>
               {" "}
-              Whether the skill set is soccer, skincare, music or mixology, our experts show you – literally – how to do it like a pro.
+              Whether the skill set is soccer, skincare, music or mixology, our
+              experts show you – literally – how to do it like a pro.
             </div>
           </span>
-          <div style={{ marginTop: "6em" }}>
-            <span
-              className="blocklinegreen"
-              style={{ width: "50px", height: "10px" }}
-            ></span>
+          <div style={{ marginTop: "6em", marginLeft: "2em" }}>
+         
+            <div
+              style={{
+                height: "10px",
+                width: "50px",
+                backgroundColor: "red",
+              }}
+            ></div>
           </div>
         </div>
       </div>

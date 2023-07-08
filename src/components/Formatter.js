@@ -23,6 +23,7 @@ import Reasons from '../WhyCollision/Reasons';
 import TeamBuilding from '../WhyCollision/TeamBuilding';
 import Essentials from './Essentials';
 import Mobile from './Mobile';
+import Mobile2 from './Mobile2';
 import WomenTech from './WomenTech';
 
 // import { Outlet } from 'react-router-dom'
@@ -30,11 +31,11 @@ import WomenTech from './WomenTech';
 
 
 
-function Formatter() {
+const Formatter =  () =>  {
   return (
 
     <div style={{ width: "100%", display: "flex", flexDirection: "column" }}>
-      <Mobile/>
+      <Mobile2/>
       <Outlet/>
       {/* <Home/> */}
       {/* <Bookings/> */}

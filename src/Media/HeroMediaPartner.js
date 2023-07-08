@@ -28,7 +28,7 @@ Meet our Media Partners              </h1>
 
                 <br />
                 <br />
-Join them in Toronto this June
+Join them in Toronto this October
                  </p>
             </div>
           

@@ -23,7 +23,7 @@ const Slider2Media = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"black"}} >
-      <h2 style={{paddingTop:"2em", margin: "2em",color:"white"}}> The worlds largest media companies attend our events  </h2>
+      <h2 style={{paddingTop:"2em", margin: "1em",color:"white"}}>THE WORLD'S LARGEST MEDIA COMPANIES ATTEND OUR EVENTS  </h2>
 
     <Carousel
       className="slider"
@@ -38,40 +38,40 @@ const Slider2Media = () => {
       onClickItem={(index) => setCurrentSlide(index)}
       onInit={() => setTotalSlides(6)}
     >
-      <div style={{marginLeft: "4em",marginBottom: "2em" ,width:"150px", height:"50px"}}>
+<div>
       <img  src={cnbc}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={vogue}/>
+      <div>
+      <img style={{ width: "200px" }}   src={vogue}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={bloomberg}/>
+      <div>
+      <img style={{ width: "200px" }}  src={bloomberg}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={businessInsider}/>
+      <div>
+      <img style={{ width: "200px" }}  src={businessInsider}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={bbc}/>
+      <div>
+      <img style={{ width: "200px" }}  src={bbc}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={forbes}/>
+      <div>
+      <img  style={{ width: "200px" }} src={forbes}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={guardian}/>
+      <div>
+      <img style={{ width: "200px" }}  src={guardian}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={lemonade}/>
+      <div>
+      <img style={{ width: "200px" }}  src={lemonade}/>
       
       </div>
-      <div style={{marginLeft: "4em", marginBottom: "2em" ,width:"150px", height:"50px"}}>
-      <img  src={monocle}/>
+<div>
+        <img style={{ width: "200px" }}   src={monocle}/>
       
       </div>
      
