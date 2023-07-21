@@ -28,3 +28,50 @@
 
 }
 
+@media screen and (width > 350px) {
+    .image-contain {
+        width: 150px;
+        height: 150px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media screen and (width > 450px) {
+    .image-contain {
+        width: 200px;
+        height: 200px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media screen and (width > 450px) {
+    .image-contain {
+        width: 200px;
+        height: 200px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media screen and (width > 550px) {
+    .image-contain {
+        width: 250px;
+        height: 250px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media screen and (width > 650px) {
+    .image-contain {
+        width: 300px;
+        height: 300px;
+        /* margin-left: 20px; */
+    }
+}
+
+@media screen and (width > 750px) {
+    .image-contain {
+        width: 350px;
+        height: 350px;
+        /* margin-left: 20px; */
+    }
+}

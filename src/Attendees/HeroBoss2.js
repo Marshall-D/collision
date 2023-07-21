@@ -24,7 +24,6 @@ const HeroBoss2 = () => {
               <Link
                 style={{ marginTop: "2em", height: "60px" }}
                 className="hero-btn-red "
-                href="/tickets/attendees"
                 to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""

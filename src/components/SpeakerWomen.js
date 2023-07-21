@@ -11,9 +11,9 @@ import serena from "../images/women/serena.png";
 import sophia from "../images/women/sophia.png";
 import ukonwa from "../images/women/ukonwa.jpeg";
 
+import "../styles/home/Speaker2.css";
 
 
-import blueblack from "../images/speakers/blueblack.avif";
 
 const SpeakerWomen = () => {
   return (
@@ -26,7 +26,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={anjali} />
+                <img className="image-contain" src={anjali} />
                 <p className="image-text">
                   Gideon Lichfield <br />
                   Global Editorial Director <br />
@@ -37,7 +37,7 @@ const SpeakerWomen = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={lupita} />
+                <img className="image-contain" src={lupita} />
                 <p className="image-text">
                   Danielle Belton <br />
                   Editor-in-chief <br />
@@ -49,7 +49,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={michelle} />
+                <img className="image-contain" src={michelle} />
                 <p className="image-text">
                   Nick Thompson
                   <br />
@@ -60,7 +60,7 @@ const SpeakerWomen = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={suzanne} />
+                <img className="image-contain" src={suzanne} />
                 <p className="image-text">
                   Abbie Lundberg <br />
                   Editor-in-chief
@@ -73,7 +73,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={sally} />
+                <img className="image-contain" src={sally} />
                 <p className="image-text">
                   Steven Levy
                   <br />
@@ -85,7 +85,7 @@ const SpeakerWomen = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={han} />
+                <img className="image-contain" src={han} />
                 <p className="image-text">
                   Daniel Klaidman <br />
                   Editor-in-Chief <br />
@@ -97,7 +97,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={melania} />
+                <img className="image-contain" src={melania} />
                 <p className="image-text">
                   Susan Li <br />
                   Business Correspondent <br />
@@ -107,7 +107,7 @@ const SpeakerWomen = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={nicole} />
+                <img className="image-contain" src={nicole} />
                 <p className="image-text">
                   Steve Clemons
                   <br />
@@ -120,7 +120,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={sairah} />
+                <img className="image-contain" src={sairah} />
                 <p className="image-text">
                   Felice Maranz <br />
                   Editor of Markets Live <br />
@@ -130,7 +130,7 @@ const SpeakerWomen = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={serena} />
+                <img className="image-contain" src={serena} />
                 <p className="image-text">
                   Bill Owens <br />
                   Executive Producer of 60 Minutes
@@ -143,7 +143,7 @@ const SpeakerWomen = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={sophia} />
+                <img className="image-contain" src={sophia} />
                 <p className="image-text">
                   Michael Isikoff <br />
                   Chief Investigative Correspondent <br />
@@ -153,7 +153,7 @@ const SpeakerWomen = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={ukonwa} />
+                <img className="image-contain" src={ukonwa} />
                 <p className="image-text">
                   Cristiana Sousa Cruz
                   <br />
@@ -170,3 +170,4 @@ const SpeakerWomen = () => {
   );
 };
 export default SpeakerWomen;
+ 

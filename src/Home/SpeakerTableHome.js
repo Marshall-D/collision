@@ -242,7 +242,7 @@ const SpeakerTableHome = () => {
           <td>
             <div className="image">
               <img 
-              className="image-container" 
+              className="image-contain" 
               src={jennifer} />
               <p className="image-text">
                 Jennifer McKelvie
@@ -255,7 +255,7 @@ const SpeakerTableHome = () => {
           <td>
             <div className="image">
               <img 
-              className="image-container"
+              className="image-contain"
                src={tom} />
               <p className="image-text">
                 Tom Verrilli

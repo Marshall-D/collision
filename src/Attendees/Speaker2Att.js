@@ -40,6 +40,9 @@ import tom from "../images/speakers/tom.avif";
 
 import blueblack from "../images/speakers/blueblack.avif";
 
+import "../styles/home/Speaker2.css";
+
+
 const Speaker2Att = () => {
   return (
     <div className="container">
@@ -48,7 +51,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={adam} />
+                <img className="image-contain" src={adam} />
                 <p className="image-text">
                   Adam Selipsky
                   <br />
@@ -61,7 +64,7 @@ const Speaker2Att = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={tara} />
+                <img className="image-contain" src={tara} />
                 <p className="image-text">
                   Tara Bunch <br />
                   Global Head of Operations
@@ -74,7 +77,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={marques} />
+                <img className="image-contain" src={marques} />
                 <p className="image-text">
                   Marques Brownlee <br />
                   YouTuber and podcaster <br />
@@ -83,7 +86,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={christina} />
+                <img className="image-contain" src={christina} />
                 <p className="image-text">
                   Christina Cacioppo <br />
                   Co-founder &amp; CEO <br />
@@ -95,7 +98,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={Francois} />
+                <img className="image-contain" src={Francois} />
                 <p className="image-text">
                   François-Philippe Champagne
                   <br />
@@ -107,7 +110,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={colin} />
+                <img className="image-contain" src={colin} />
                 <p className="image-text">
                   Colin Murdoch <br />
                   Chief Business Officer <br />
@@ -119,7 +122,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={geo} />
+                <img className="image-contain" src={geo} />
                 <p className="image-text">
                   Geoffrey Hinton <br />
                   Godfather of AI <br />
@@ -129,7 +132,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={michelle} />
+                <img className="image-contain" src={michelle} />
                 <p className="image-text">
                   Michelle Zatlyn
                   <br />
@@ -142,7 +145,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={asaf} />
+                <img className="image-contain" src={asaf} />
                 <p className="image-text">
                   Assaf Rappaport <br />
                   Co-founder &amp; CEO <br />
@@ -152,7 +155,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={dave} />
+                <img className="image-contain" src={dave} />
                 <p className="image-text">
                   Dave Rogenmoser
                   <br />
@@ -165,7 +168,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={david} />
+                <img className="image-contain" src={david} />
                 <p className="image-text">
                   David Singleton <br />
                   CTO <br />
@@ -175,7 +178,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={aidan} />
+                <img className="image-contain" src={aidan} />
                 <p className="image-text">
                   Aidan Gomez
                   <br />
@@ -188,7 +191,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={max} />
+                <img className="image-contain" src={max} />
                 <p className="image-text">
                   Max Lytvyn <br />
                   Co Founder <br />
@@ -198,7 +201,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={lauren} />
+                <img className="image-contain" src={lauren} />
                 <p className="image-text">
                   Lauren Kolodny <br />
                   Co-founder &amp; Managing Partner
@@ -211,7 +214,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={sarah} />
+                <img className="image-contain" src={sarah} />
                 <p className="image-text">
                   Sarah Guo
                   <br />
@@ -222,7 +225,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={kaplan} />
+                <img className="image-contain" src={kaplan} />
                 <p className="image-text">
                   Lauren Kolodny <br />
                   Co-founder &amp; Managing Partner
@@ -235,7 +238,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={tavel} />
+                <img className="image-contain" src={tavel} />
                 <p className="image-text">
                   Sarah Tavel
                   <br />
@@ -246,7 +249,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={kelly} />
+                <img className="image-contain" src={kelly} />
                 <p className="image-text">
                   Kelly Burton <br />
                   CEO
@@ -259,7 +262,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={jennifer} />
+                <img className="image-contain" src={jennifer} />
                 <p className="image-text">
                   Jennifer McKelvie
                   <br />
@@ -270,7 +273,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={tom} />
+                <img className="image-contain" src={tom} />
                 <p className="image-text">
                   Tom Verrilli
                   <br />
@@ -284,7 +287,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={gideon} />
+                <img className="image-contain" src={gideon} />
                 <p className="image-text">
                   Gideon Lichfield <br />
                   Global Editorial Director <br />
@@ -295,7 +298,7 @@ const Speaker2Att = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={danielle} />
+                <img className="image-contain" src={danielle} />
                 <p className="image-text">
                   Danielle Belton <br />
                   Editor-in-chief <br />
@@ -307,7 +310,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={nick} />
+                <img className="image-contain" src={nick} />
                 <p className="image-text">
                   Nick Thompson
                   <br />
@@ -318,7 +321,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={abie} />
+                <img className="image-contain" src={abie} />
                 <p className="image-text">
                   Abbie Lundberg <br />
                   Editor-in-chief
@@ -331,7 +334,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={steven} />
+                <img className="image-contain" src={steven} />
                 <p className="image-text">
                   Steven Levy
                   <br />
@@ -343,7 +346,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={daniel} />
+                <img className="image-contain" src={daniel} />
                 <p className="image-text">
                   Daniel Klaidman <br />
                   Editor-in-Chief <br />
@@ -355,7 +358,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={susan} />
+                <img className="image-contain" src={susan} />
                 <p className="image-text">
                   Susan Li <br />
                   Business Correspondent <br />
@@ -365,7 +368,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={steve} />
+                <img className="image-contain" src={steve} />
                 <p className="image-text">
                   Steve Clemons
                   <br />
@@ -378,7 +381,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={feliz} />
+                <img className="image-contain" src={feliz} />
                 <p className="image-text">
                   Felice Maranz <br />
                   Editor of Markets Live <br />
@@ -388,7 +391,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={bill} />
+                <img className="image-contain" src={bill} />
                 <p className="image-text">
                   Bill Owens <br />
                   Executive Producer of 60 Minutes
@@ -401,7 +404,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={isikov} />
+                <img className="image-contain" src={isikov} />
                 <p className="image-text">
                   Michael Isikoff <br />
                   Chief Investigative Correspondent <br />
@@ -411,7 +414,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={cristianablw} />
+                <img className="image-contain" src={cristianablw} />
                 <p className="image-text">
                   Cristiana Sousa Cruz
                   <br />
@@ -424,7 +427,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={harry} />
+                <img className="image-contain" src={harry} />
                 <p className="image-text">
                   Harry McCracken
                   <br />
@@ -435,7 +438,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={blueblack} />
+                <img className="image-contain" src={blueblack} />
                 <p className="image-text">
                   DeRay Mckesson <br />
                   Civil Rights Activist &amp; Podcaster <br />
@@ -447,7 +450,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={kia} />
+                <img className="image-contain" src={kia} />
                 <p className="image-text">
                   Kia Kokalitcheva
                   <br />
@@ -459,7 +462,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={zachary} />
+                <img className="image-contain" src={zachary} />
                 <p className="image-text">
                   Zachary Karabell <br />
                   Contributor <br />
@@ -471,7 +474,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={martina} />
+                <img className="image-contain" src={martina} />
                 <p className="image-text">
                   Martina Fuchs <br />
                   Business Correspondent <br />
@@ -481,7 +484,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={alisa} />
+                <img className="image-contain" src={alisa} />
                 <p className="image-text">
                   Alisa Cohn
                   <br />
@@ -494,7 +497,7 @@ const Speaker2Att = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={angus} />
+                <img className="image-contain" src={angus} />
                 <p className="image-text">
                   Angus Loten
                   <br />
@@ -505,7 +508,7 @@ const Speaker2Att = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={alejandro} />
+                <img className="image-contain" src={alejandro} />
                 <p className="image-text">
                   Alejandro de la Garza <br />
                   Staff Writer <br />

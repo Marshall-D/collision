@@ -34,7 +34,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img1} />
+                <img className="image-contain" src={img1} />
                 <p className="image-text">
                   Hans Tung <br />
                   Managing Partner <br />
@@ -45,7 +45,7 @@ const Speaker2Investor = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={img2} />
+                <img className="image-contain" src={img2} />
                 <p className="image-text">
                   Rebecca Kaden <br />
                   General Partner <br />
@@ -57,7 +57,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img3} />
+                <img className="image-contain" src={img3} />
                 <p className="image-text">
                   Anish Acharya <br />
                   General Partner <br />
@@ -67,7 +67,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img4} />
+                <img className="image-contain" src={img4} />
                 <p className="image-text">
                   Sarah Tavel <br />
                   General Partner <br />
@@ -79,7 +79,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img5} />
+                <img className="image-contain" src={img5} />
                 <p className="image-text">
                   Nigel Morris <br />
                   Co-Founder and General Partner <br />
@@ -89,7 +89,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img6} />
+                <img className="image-contain" src={img6} />
                 <p className="image-text">
                   Rebecca Lynn <br />
                   General Partner <br />
@@ -101,7 +101,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img7} />
+                <img className="image-contain" src={img7} />
                 <p className="image-text">
                   Shardul Shah <br />
                   Partner <br />
@@ -111,7 +111,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img8} />
+                <img className="image-contain" src={img8} />
                 <p className="image-text">
                   Elad Gil
                   <br />
@@ -123,7 +123,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img9} />
+                <img className="image-contain" src={img9} />
                 <p className="image-text">
                   Ansaf Kareem
                   <br />
@@ -134,7 +134,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img10} />
+                <img className="image-contain" src={img10} />
                 <p className="image-text">
                   Kanu Gulati
                   <br />
@@ -147,7 +147,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img11} />
+                <img className="image-contain" src={img11} />
                 <p className="image-text">
                   Kevin Colleran <br />
                   Co-founder &amp; Managing Director
@@ -158,7 +158,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img12} />
+                <img className="image-contain" src={img12} />
                 <p className="image-text">
                   Eurie Kim
                   <br />
@@ -171,7 +171,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img13} />
+                <img className="image-contain" src={img13} />
                 <p className="image-text">
                   Lonne Jaffe
                   <br />
@@ -182,7 +182,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img14} />
+                <img className="image-contain" src={img14} />
                 <p className="image-text">
                   Beth Ferreira <br />
                   General Partner
@@ -195,7 +195,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img15} />
+                <img className="image-contain" src={img15} />
                 <p className="image-text">
                   Michael Yang
                   <br />
@@ -206,7 +206,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img16} />
+                <img className="image-contain" src={img16} />
                 <p className="image-text">
                   Christine Tsai <br />
                   Founding Partner &amp; CEO
@@ -219,7 +219,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={tavel} />
+                <img className="image-contain" src={tavel} />
                 <p className="image-text">
                   Kobie Fuller
                   <br />
@@ -230,7 +230,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img17} />
+                <img className="image-contain" src={img17} />
                 <p className="image-text">
                   Kathryn Wortsman <br />
                   CEO
@@ -243,7 +243,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img18} />
+                <img className="image-contain" src={img18} />
                 <p className="image-text">
                   Seth Bannon
                   <br />
@@ -254,7 +254,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img19} />
+                <img className="image-contain" src={img19} />
                 <p className="image-text">
                   Brett Gibson
                   <br />
@@ -268,7 +268,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img20} />
+                <img className="image-contain" src={img20} />
                 <p className="image-text">
                   Alanna Souza
                   <br />
@@ -279,7 +279,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img21} />
+                <img className="image-contain" src={img21} />
                 <p className="image-text">
                   Roy Bahat
                   <br />
@@ -293,7 +293,7 @@ const Speaker2Investor = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={img22} />
+                <img className="image-contain" src={img22} />
                 <p className="image-text">
                   Eva Ho
                   <br />
@@ -305,7 +305,7 @@ const Speaker2Investor = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={img23} />
+                <img className="image-contain" src={img23} />
                 <p className="image-text">
                   Lu Zhang
                   <br />

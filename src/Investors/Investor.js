@@ -1,11 +1,6 @@
-import Trusted from "../Bookings/Trusted";
 import Footer from "../Home/Footer";
 import Header from "../Home/Header";
-import Hero from "../Home/Hero";
-import Section3 from "../Home/Section3";
-import Section6 from "../Home/Section6";
-import Slider2 from "../Home/Slider2";
-import Speaker2 from "../Home/Speaker2";
+
 import HeroInvestor from "./HeroInvestor";
 import Section2Investor from "./Section2Investor";
 import Section3Investor from "./Section3Investor";

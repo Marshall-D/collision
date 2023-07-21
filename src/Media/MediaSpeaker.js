@@ -17,6 +17,7 @@ import steve from "../images/speakers/steve.png";
 import feliz from "../images/speakers/feliz.png";
 import bill from "../images/speakers/bill.png";
 import zachary from "../images/speakers/zachary.png";
+import "../styles/home/Speaker2.css";
 
 import blueblack from "../images/speakers/blueblack.avif";
 
@@ -31,7 +32,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={gideon} />
+                <img className="image-contain" src={gideon} />
                 <p className="image-text">
                   Gideon Lichfield <br />
                   Global Editorial Director <br />
@@ -42,7 +43,7 @@ const MediaSpeaker = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={danielle} />
+                <img className="image-contain" src={danielle} />
                 <p className="image-text">
                   Danielle Belton <br />
                   Editor-in-chief <br />
@@ -54,7 +55,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={nick} />
+                <img className="image-contain" src={nick} />
                 <p className="image-text">
                   Nick Thompson
                   <br />
@@ -65,7 +66,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={abie} />
+                <img className="image-contain" src={abie} />
                 <p className="image-text">
                   Abbie Lundberg <br />
                   Editor-in-chief
@@ -78,7 +79,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={steven} />
+                <img className="image-contain" src={steven} />
                 <p className="image-text">
                   Steven Levy
                   <br />
@@ -90,7 +91,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={daniel} />
+                <img className="image-contain" src={daniel} />
                 <p className="image-text">
                   Daniel Klaidman <br />
                   Editor-in-Chief <br />
@@ -102,7 +103,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={susan} />
+                <img className="image-contain" src={susan} />
                 <p className="image-text">
                   Susan Li <br />
                   Business Correspondent <br />
@@ -112,7 +113,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={steve} />
+                <img className="image-contain" src={steve} />
                 <p className="image-text">
                   Steve Clemons
                   <br />
@@ -125,7 +126,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={feliz} />
+                <img className="image-contain" src={feliz} />
                 <p className="image-text">
                   Felice Maranz <br />
                   Editor of Markets Live <br />
@@ -135,7 +136,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={bill} />
+                <img className="image-contain" src={bill} />
                 <p className="image-text">
                   Bill Owens <br />
                   Executive Producer of 60 Minutes
@@ -148,7 +149,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={isikov} />
+                <img className="image-contain" src={isikov} />
                 <p className="image-text">
                   Michael Isikoff <br />
                   Chief Investigative Correspondent <br />
@@ -158,7 +159,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={cristianablw} />
+                <img className="image-contain" src={cristianablw} />
                 <p className="image-text">
                   Cristiana Sousa Cruz
                   <br />
@@ -171,7 +172,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={harry} />
+                <img className="image-contain" src={harry} />
                 <p className="image-text">
                   Harry McCracken
                   <br />
@@ -182,7 +183,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={blueblack} />
+                <img className="image-contain" src={blueblack} />
                 <p className="image-text">
                   DeRay Mckesson <br />
                   Civil Rights Activist &amp; Podcaster <br />
@@ -194,7 +195,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={kia} />
+                <img className="image-contain" src={kia} />
                 <p className="image-text">
                   Kia Kokalitcheva
                   <br />
@@ -206,7 +207,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={zachary} />
+                <img className="image-contain" src={zachary} />
                 <p className="image-text">
                   Zachary Karabell <br />
                   Contributor <br />
@@ -218,7 +219,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={martina} />
+                <img className="image-contain" src={martina} />
                 <p className="image-text">
                   Martina Fuchs <br />
                   Business Correspondent <br />
@@ -228,7 +229,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={alisa} />
+                <img className="image-contain" src={alisa} />
                 <p className="image-text">
                   Alisa Cohn
                   <br />
@@ -241,7 +242,7 @@ const MediaSpeaker = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={angus} />
+                <img className="image-contain" src={angus} />
                 <p className="image-text">
                   Angus Loten
                   <br />
@@ -252,7 +253,7 @@ const MediaSpeaker = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={alejandro} />
+                <img className="image-contain" src={alejandro} />
                 <p className="image-text">
                   Alejandro de la Garza <br />
                   Staff Writer <br />

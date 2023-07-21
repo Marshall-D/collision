@@ -17,6 +17,7 @@ import mustafa from "../../images/speakers/mustafa.avif";
 import wesley from "../../images/speakers/wesley.avif";
 import sarah from "../../images/speakers/sarah.png";
 import whyz from "../../images/speakers/whyz.avif";
+import "../../styles/home/Speaker2.css";
 
 
 const Speakerqa = () => {
@@ -28,7 +29,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={tom} />
+                <img className="image-contain" src={tom} />
                 <p className="image-text">
                   Tom Verrilli
                   <br />
@@ -40,7 +41,7 @@ const Speakerqa = () => {
 
             <td>
               <div className="image">
-                <img className="image-container" src={blueblack} />
+                <img className="image-contain" src={blueblack} />
                 <p className="image-text">
                   DeRay Mckesson <br />
                   Civil Rights Activist &amp; Podcaster <br />
@@ -52,7 +53,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={penny} />
+                <img className="image-contain" src={penny} />
                 <p className="image-text">
                   Penny Oleksiak <br />
                   Olympian Swimmer <br />
@@ -62,7 +63,7 @@ const Speakerqa = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={anthony} />
+                <img className="image-contain" src={anthony} />
                 <p className="image-text">
                   Anthony Scaramucci <br />
                   Founder <br />
@@ -74,7 +75,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={kim} />
+                <img className="image-contain" src={kim} />
                 <p className="image-text">
                   Kimberlie Le <br />
                   Co-founder &amp; CEO <br />
@@ -84,7 +85,7 @@ const Speakerqa = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={gina} />
+                <img className="image-contain" src={gina} />
                 <p className="image-text">
                   Geena Jackson <br />
                   Executive Producer, Creator, Core Judge
@@ -97,7 +98,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={josh} />
+                <img className="image-contain" src={josh} />
                 <p className="image-text">
                   Josh Richards <br />
                   Founder &amp; Chairman <br />
@@ -107,7 +108,7 @@ const Speakerqa = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={wayne} />
+                <img className="image-contain" src={wayne} />
                 <p className="image-text">
                   Sarah Wayne Callies
                   <br />
@@ -120,7 +121,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={phil} />
+                <img className="image-contain" src={phil} />
                 <p className="image-text">
                   Phil Wiser <br />
                   EVP &amp; CTO <br />
@@ -130,7 +131,7 @@ const Speakerqa = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={juju} />
+                <img className="image-contain" src={juju} />
                 <p className="image-text">
                   Juju Smith-Schuster <br />
                   Super Bowl LVII Champ &amp; Wide Receiver <br />
@@ -142,7 +143,7 @@ const Speakerqa = () => {
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={kensim} />
+                <img className="image-contain" src={kensim} />
                 <p className="image-text">
                   Ken Sim <br />
                   Mayor <br />
@@ -152,7 +153,7 @@ const Speakerqa = () => {
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={michael} />
+                <img className="image-contain" src={michael} />
                 <p className="image-text">
                Michael le
                   <br />
@@ -164,7 +165,7 @@ Joystick                </p>
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={melissa} />
+                <img className="image-contain" src={melissa} />
                 <p className="image-text">
                 Melissa Lantsman<br />
                 Deputy Leader of Conservative Party of Canada <br />
@@ -174,7 +175,7 @@ Joystick                </p>
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={sean} />
+                <img className="image-contain" src={sean} />
                 <p className="image-text">
                 Sean Fraser<br />
                   Minister of Immigration, Refugees &amp; Citizenship                  <br />
@@ -185,7 +186,7 @@ Government of Canada                </p>
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={mustafa} />
+                <img className="image-contain" src={mustafa} />
                 <p className="image-text">
                 Mustafa Suleyman
                   <br />
@@ -196,7 +197,7 @@ Government of Canada                </p>
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={wesley} />
+                <img className="image-contain" src={wesley} />
                 <p className="image-text">
                 Wesley Chan <br />
                   Co-founder &amp; Managing Partner
@@ -208,7 +209,7 @@ Government of Canada                </p>
           <tr>
             <td>
               <div className="image">
-                <img className="image-container" src={sarah} />
+                <img className="image-contain" src={sarah} />
                 <p className="image-text">
                   Sarah Guo
                   <br />
@@ -219,7 +220,7 @@ Government of Canada                </p>
             </td>
             <td>
               <div className="image">
-                <img className="image-container" src={whyz} />
+                <img className="image-contain" src={whyz} />
                 <p className="image-text">
                 Kelly Rutherford <br />
                 Actor &amp; Investor                  <br />

@@ -8,7 +8,8 @@
 .image-containers{
     width: 120px;
     height: 30px;
-    margin-left: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .image-text{
     /* font-style: bold; */
@@ -30,3 +31,46 @@
 
 }
 
+
+@media screen and (width > 350px) {
+    .image-containers {
+        width: 150px;
+        /* height: 150px; */
+        margin-left: 10px;
+        margin-right: 10px;    }
+}
+
+@media screen and (width > 450px) {
+    .image-containers {
+        width: 200px;
+        /* height: 200px; */
+        margin-left: 10px;
+        margin-right: 10px;    }
+}
+
+
+
+@media screen and (width > 550px) {
+    .image-containers {
+        width: 250px;
+        height: 50px;
+        margin-left: 10px;
+        margin-right: 10px;    }
+}
+
+@media screen and (width > 650px) {
+    .image-containers {
+        width: 300px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 10px;    }
+}
+
+@media screen and (width > 750px) {
+    .image-containers {
+        width: 350px;
+        height: 60px;
+        margin-left: 10px;
+        margin-right: 10px; 
+    }
+}
