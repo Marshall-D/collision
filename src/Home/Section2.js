@@ -11,7 +11,7 @@ const Section2 = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-5">
-            <h2 style={{margin: "0", color: "#fff"}}>WHAT OTHERS SAY</h2>
+            <h2 cl style={{margin: "0", color: "#fff"}}>WHAT OTHERS SAY</h2>
           </div>
           <div className="col-md-7" style={{alignItems: "center", color: "#fff"}}>
             <p>

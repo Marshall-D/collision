@@ -1,7 +1,7 @@
-.htmlblock{
+.htmlblock {
 
     color: white;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     padding: 1rem 0;
     position: relative;
@@ -17,14 +17,14 @@
 }
 
 .container {
-    
+
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    
+
     font-family: "Inter", sans-serif;
     color: color;
     box-sizing: border-box;
@@ -37,15 +37,15 @@
     padding: 0 1rem;
 }
 
-.row{
+.row {
     font-size: 100%;
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
-    
-    font-family: "Inter",sans-serif;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
+
+    font-family: "Inter", sans-serif;
     color: white;
     box-sizing: border-box;
     display: flex;
@@ -53,10 +53,11 @@
     margin-right: -15px;
     margin-left: 0;
 }
-.col-md-5{
-    
+
+.col-md-5 {
+
     color: white;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -64,8 +65,9 @@
     padding-right: 15px;
     padding-left: 15px;
 }
-.col-md-7{
-    font-family: "Inter",sans-serif;
+
+.col-md-7 {
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     position: relative;
     width: 100%;
@@ -74,4 +76,21 @@
     padding-left: 15px;
     align-items: center;
     color: #fff;
+}
+
+@media screen and (width > 850px) {
+
+    /* .row{
+        display: inline-flex;
+    } */
+    .col-md-5 {
+        /* display: inline-flex; */
+        font-size: 3rem;
+    }
+
+    .col-md-7 {
+        /* display: inline-flex; */
+
+        font-size: 2rem;
+    }
 }

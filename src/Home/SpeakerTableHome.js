@@ -24,7 +24,7 @@ import tom from "../images/speakers/tom.avif";
 const SpeakerTableHome = () => {
   return (
     <div className="container">
-      <h2 style={{ color: "blue"}}>MEET OUR 2023 SPEAKERS </h2>
+      <h2 className="textSize"  style={{ color: "blue"}}>MEET OUR 2023 SPEAKERS </h2>
       <div className="inner-container">
       <table >
         <tr>
