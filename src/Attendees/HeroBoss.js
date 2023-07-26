@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 const HeroBoss = () => {
   return (
     <div>
-      <section className="hero">
+      <section className="hero-boss">
         <div className="container">
           <div className="row">
             <div className="col-md">
-              <h1 className="full ">Convince your boss </h1>
+              <h1 className="full-boss ">Convince your boss </h1>
             </div>
           </div>
           <div className="row">
@@ -97,7 +97,7 @@ const HeroBoss = () => {
 
               <Link
                 style={{ marginTop: "2em", height: "60px" }}
-                className="hero-btn-red "
+                className="hero-btn-redd "
                 to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""

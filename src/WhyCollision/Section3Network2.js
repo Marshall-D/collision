@@ -1,19 +1,15 @@
 import screen from "../images/screenmeet.png";
 import trello from "../images/trello.png";
 import zoom from "../images/zoom-ai.png";
-import inc from "../images/Media/Inc-logo.png";
-import cna from "../images/Media/cna-logo.png";
-import globe from "../images/Media/the-globe-and-mail_katka.png";
-import wsj from "../images/Media/the-wall-street-journal.png";
-import dt from "../images/Media/digital-trends-logo.jpeg";
+
 import recode from "../images/Media/recode.png";
 const Section3Network2 = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section   className="textSize" style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
       <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em",marginRight:"1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={trello} />
+          <img className="image-size"               src={trello} />
           </div>
           <span>
             <h3>
@@ -26,12 +22,12 @@ const Section3Network2 = () => {
             <h3>"The stunning future of tech conferences." </h3>
           </span>
           <div style={{ marginLeft: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={screen} />
+          <img className="image-size"              src={screen} />
           </div>
         </div>
         <div style={{ marginTop:"2em",display: "inline-flex" }}>
           <div style={{ marginTop: "1em",marginRight:"2em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={zoom} />
+          <img className="image-size"              src={zoom} />
           </div>
           <span>
             <h3>
@@ -54,7 +50,7 @@ const Section3Network2 = () => {
             </div>
           </span>
           <div style={{ marginTop: "7em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={recode} />
+          <img className="image-size"              src={recode} />
           </div>
         </div>
        

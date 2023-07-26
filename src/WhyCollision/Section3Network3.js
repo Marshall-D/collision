@@ -1,19 +1,15 @@
 import royal from "../images/royal-bank.png";
 import aws from "../images/aws.png";
 import cisco from "../images/cisco-5-1.png";
-import inc from "../images/Media/Inc-logo.png";
-import cna from "../images/Media/cna-logo.png";
-import globe from "../images/Media/the-globe-and-mail_katka.png";
-import wsj from "../images/Media/the-wall-street-journal.png";
-import dt from "../images/Media/digital-trends-logo.jpeg";
+
 import recode from "../images/Media/recode.png";
 const Section3Network3 = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section   className="textSize"  style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
       <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em",marginRight:"1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={cisco} />
+          <img className="image-size"               src={cisco} />
           </div>
           <span>
             <h3>
@@ -31,7 +27,7 @@ const Section3Network3 = () => {
         </div>
         <div style={{ marginTop:"2em",display: "inline-flex" }}>
           <div style={{ marginTop: "1em",marginRight:"2em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={aws} />
+          <img className="image-size"               src={aws} />
           </div>
           <span>
             <h3>
@@ -54,7 +50,7 @@ const Section3Network3 = () => {
             </div>
           </span>
           <div style={{ marginTop: "7em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={recode} />
+          <img className="image-size"               src={recode} />
           </div>
         </div>
        

@@ -18,7 +18,7 @@ import "../styles/home/Speaker2.css";
 const SpeakerWomen = () => {
   return (
     <div className="container">
-      <h2 style={{ color: "blue" }}>
+      <h2 className="textSize" style={{ color: "blue" }}>
         MEET THE MEDIA ATTENDEES JOINING US IN 2023{" "}
       </h2>
       <div className="inner-container">

@@ -1,10 +1,11 @@
 import "../styles/home/DownloadSection.css";
+import { Link } from "react-router-dom";
 
 const DownloadSection = () => {
   return (
     <section className="formSection">
       <div className="container">
-        <h2>Download the Collision 2023 overview</h2>
+        <h2 className="textSize">DOWNLOAD THE COLLISION 2023 OVERVIEW </h2>
         <div class="notHero">
           <form class="form two-cols" novalidate="">
             <div className="form_field">
@@ -42,11 +43,10 @@ const DownloadSection = () => {
                 {/* <span class/</div>="floatingLabel__label">First name*</span> */}
               </div>
             </div>
-            
+
             <div style={{ paddingTop: "1em" }}>
               <p className="form-text">
-                <span
-                 >
+                <span>
                   By submitting, you agree to receive email communications from
                   Collision, including upcoming promotions and discounted
                   tickets, news, and access to exclusive invite-only events.
@@ -55,7 +55,7 @@ const DownloadSection = () => {
             </div>
 
             <div style={{ paddingTop: "1em" }}>
-              <span>
+              <span className="textSize_2">
                 I allow Collision to customise the messages I'm shown, relevant
                 to my interests, using targeted advertising based on the details
                 submitted.*
@@ -70,7 +70,9 @@ const DownloadSection = () => {
                     name="i_allow_collision_to_customise_the_messages_im_shown_relevant_to_my_interests_using_targeted_advertising_based_on_the_details_submitted"
                     value="Yes"
                   />
-                  <label for="field_94293034---5-0">Yes</label>
+                  <label className="textSize_2" for="field_94293034---5-0">
+                    Yes
+                  </label>
                 </div>
                 <div>
                   <input
@@ -80,13 +82,21 @@ const DownloadSection = () => {
                     name="i_allow_collision_to_customise_the_messages_im_shown_relevant_to_my_interests_using_targeted_advertising_based_on_the_details_submitted"
                     value="No"
                   />
-                  <label for="field_94293034---5-1">No</label>
+                  <label className="textSize_2" for="field_94293034---5-1">
+                    No
+                  </label>
                 </div>
               </div>
             </div>
-        
 
-            <button className="btn">Download overview</button>
+            <Link
+              className="hero-btn-redd "
+              to="https://form.jotform.com/231143699159262"
+              rel=""
+              target=""
+            >
+              Download overview{" "}
+            </Link>
           </form>
         </div>
       </div>

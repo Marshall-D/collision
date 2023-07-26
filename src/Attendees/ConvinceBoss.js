@@ -18,9 +18,7 @@ function ConvinceBoss() {
       <SliderBoss />
       <Section3Boss />
       <Slider2Media />
-      <h2 style={{ marginLeft: "1em", color: "blue" }}>
-        MEET OUR 2023 SPEAKERS
-      </h2>
+    
 
       <Speaker2Att />
       <HeroBoss2 />

@@ -3,14 +3,15 @@ import lead from "../images/Lead-generation-50.jpg";
 import thought from "../images/Thought-leadership-50.jpg";
 import brand from "../images/Brand-awareness-50.jpg";
 
+import "../styles/home/Home.css";
 
 const Section3Partner = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section  className="text-size"style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex",marginBottom:"4em" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={brand} />
+            <img  className="image-size" src={brand} />
           </div>
           <span>
             <h3>BRAND AWARENESS</h3>
@@ -28,12 +29,12 @@ const Section3Partner = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={thought} />
+            <img className="image-size" src={thought} />
           </div>
         </div>
         <div style={{ display: "inline-flex",marginBottom:"4em"  }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+            <img  className="image-size" src={network} />
           </div>
           <span>
             <h3>NETWORKING</h3>
@@ -51,7 +52,7 @@ const Section3Partner = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={lead} />
+            <img  className="image-size" src={lead} />
           </div>
         </div>
       </div>

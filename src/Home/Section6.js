@@ -1,8 +1,9 @@
 import "../styles/home/Speakers.css";
+import { Link } from "react-router-dom";
 
 const Section6 = () => {
   return (
-    <section className="formSection">
+    <section className="formSection text-size">
       <div className="container">
         <h2>Subscribe to our newsletter for the latest collision news</h2>
         <div class="notHero">
@@ -42,11 +43,10 @@ const Section6 = () => {
                 {/* <span class/</div>="floatingLabel__label">First name*</span> */}
               </div>
             </div>
-            
+
             <div style={{ paddingTop: "1em" }}>
               <p className="form-text">
-                <span
-                 >
+                <span>
                   By submitting, you agree to receive email communications from
                   Collision, including upcoming promotions and discounted
                   tickets, news, and access to exclusive invite-only events.
@@ -84,9 +84,15 @@ const Section6 = () => {
                 </div>
               </div>
             </div>
-        
 
-            <button className="btn">Sign up for our newsletter</button>
+            <Link
+              className="hero-btn-redd"
+              to="https://form.jotform.com/231143699159262"
+              rel=""
+              target=""
+            >
+              Sign up for our newsletter{" "}
+            </Link>
           </form>
         </div>
       </div>

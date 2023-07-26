@@ -6,11 +6,13 @@ import share from "../images/team/CC21_share.jpg";
 
 const Section3Team = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="textSize" style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={connect} />
+            <img className="image-size" 
+            
+             src={connect} />
           </div>
           <span>
             <h3>CONNECT</h3>
@@ -27,12 +29,14 @@ const Section3Team = () => {
             <div>Gain some new perspectives from the biggest players in your industry, and share your insights at your next team meeting.</div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={learn} />
+          <img className="image-size" 
+            src={learn} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={share} />
+          <img className="image-size" 
+             src={share} />
           </div>
           <span>
             <h3>SHARE</h3>
@@ -46,7 +50,9 @@ const Section3Team = () => {
             <div>Now is the perfect time to reward your team for their hard work over the last year. Collision offers countless opportunities for professional development.</div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={grow} />
+          <img className="image-size" 
+            
+            src={grow} />
           </div>
         </div>
       </div>

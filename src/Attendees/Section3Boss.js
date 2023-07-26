@@ -5,13 +5,12 @@ import lead from "../images/CC21_lead-generation.jpg";
 
 const Section3Boss = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section   className="text-size" style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img
-              style={{ width: "100px", height: "100px" }}
-              src={development}
+            <img className="image-size"
+            src={development}
             />
           </div>
           <span>
@@ -38,12 +37,14 @@ const Section3Boss = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={lead} />
+          <img className="image-size"
+             src={lead} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={premium} />
+          <img className="image-size"
+            src={premium} />
           </div>
           <span>
             <h3>Premium content</h3>
@@ -68,7 +69,8 @@ const Section3Boss = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+          <img className="image-size"
+            src={network} />
           </div>
         </div>
       </div>

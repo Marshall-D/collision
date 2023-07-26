@@ -8,11 +8,11 @@ const Section3 = () => {
     <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={network} />
+          <div  className="image-size" style={{ marginTop: "5em" }}>
+            <img className="image-size" style={{ }} src={network} />
           </div>
-          <span>
-            <h3>Networking</h3>
+          <span className="text-size">
+            <h3 >NETWORKING</h3>
             <div>
               {" "}
               Make valuable connections, and meet peers and mentors in your
@@ -24,8 +24,8 @@ const Section3 = () => {
         </div>
         <div style={{ display: "inline-flex" }}>
          
-          <span>
-            <h3>Learning</h3>
+          <span className="text-size">
+            <h3>LEARNING</h3>
             <div>
               {" "}
               We live in uncertain times for tech and business. We're welcoming
@@ -35,15 +35,16 @@ const Section3 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={learn} />
+            <img className="image-size"
+             src={learn} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={lead} />
+            <img className="image-size" src={lead} />
           </div>
-          <span>
-            <h3>Lead Generation</h3>
+          <span className="text-size">
+            <h3>LEAD GENERATION </h3>
             <div>
               {" "}
               Find the people and businesses relevant to you, and generate the
@@ -55,8 +56,8 @@ const Section3 = () => {
         </div>
         <div style={{ display: "inline-flex" }}>
          
-          <span>
-            <h3>Exposure</h3>
+          <span className="text-size">
+            <h3>EXPOSURE</h3>
             <div>
               {" "}
               Collision gathers the most prestigious names in international
@@ -66,7 +67,7 @@ const Section3 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={amplify} />
+            <img  className="image-size" src={amplify} />
           </div>
         </div>
       </div>

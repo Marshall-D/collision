@@ -4,11 +4,11 @@ import stage from "../../images/stage.jpg"
 
 const Section4qa = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="textSize" style={{ backgroundColor:"blue", paddingTop: "2em", paddingBottom: "2em" }}>
       <div>
         <div>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "900px" }}
             src={christopher}
             loading="eager"
           />
@@ -48,7 +48,7 @@ const Section4qa = () => {
           </div>
           <div>
             <img
-              style={{ width: "100%", height: "150px" }}
+              style={{ width: "100%", height: "250px" }}
               src={yael}
               loading="eager"
             />
@@ -56,7 +56,7 @@ const Section4qa = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "900px" }}
             src={stage}
             loading="eager"
           />

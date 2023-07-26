@@ -1,7 +1,6 @@
 import Hero from "../Home/Hero";
 import Section2 from "./Section2";
-import Slider from "./Slider";
-import Speaker2 from "./Speaker2";
+
 import DownloadSection from "../Home/DownloadSection";
 import Slider2 from "./Slider2";
 import Section3 from "./Section3";

@@ -4,11 +4,11 @@ import leap from "../images/leap.jpg";
 import brad from "../images/brad.jpg";
 const Section4Lead = () => {
     return (
-      <section style={{ backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
+      <section className="textSize" style={{ backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
         <div>
           <div>
             <img
-              style={{ width: "100%", height: "200px" }}
+              style={{ width: "100%", height: "900px" }}
               src={bmo}
               loading="eager"
             />
@@ -48,7 +48,7 @@ const Section4Lead = () => {
             </div>
             <div>
               <img
-                style={{ width: "100%", height: "150px" }}
+                style={{ width: "100%", height: "250px" }}
                 src={leap}
                 loading="eager"
               />
@@ -56,7 +56,7 @@ const Section4Lead = () => {
           </div>
           <div>
             <img
-              style={{ width: "100%", height: "200px" }}
+              style={{ width: "100%", height: "900px" }}
               src={brad}
               loading="eager"
             />

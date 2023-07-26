@@ -5,11 +5,11 @@ import daphne from "../images/daphne.jpg";
 
 const Section4Learning = () => {
   return (
-    <section style={{  backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="textSize" style={{  backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
       <div>
         <div>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "900px" }}
             src={tracy}
             alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
             loading="eager"
@@ -61,7 +61,7 @@ const Section4Learning = () => {
           </div>
           <div>
             <img
-              style={{ width: "100%", height: "150px" }}
+              style={{ width: "100%", height: "250px" }}
               src={bmo}
               loading="eager"
             />
@@ -69,7 +69,7 @@ const Section4Learning = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", height: "200px" }}
+            style={{ width: "100%", height: "900px" }}
             src={daphne}
             loading="eager"
           />

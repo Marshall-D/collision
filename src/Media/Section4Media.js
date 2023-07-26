@@ -4,11 +4,11 @@ import amy from "../images/amy.jpg";
 import afterhours from "../images/afterhours.jpeg";
 const Section4Media = () => {
     return (
-      <section style={{backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
+      <section  className="textSize"style={{backgroundColor:"black", paddingTop: "2em", paddingBottom: "2em" }}>
         <div>
           <div>
             <img
-              style={{ width: "100%", height: "200px" }}
+              style={{ width: "100%", height: "900px" }}
               src={carmelo}
               loading="eager"
             />
@@ -48,7 +48,7 @@ const Section4Media = () => {
             </div>
             <div>
               <img
-                style={{ width: "100%", height: "150px" }}
+                style={{ width: "100%", height: "250px" }}
                 src={afterhours}
                 loading="eager"
               />
@@ -56,7 +56,7 @@ const Section4Media = () => {
           </div>
           <div>
             <img
-              style={{ width: "100%", height: "200px" }}
+              style={{ width: "100%", height: "900px" }}
               src={amy}
               loading="eager"
             />

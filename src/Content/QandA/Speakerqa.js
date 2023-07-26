@@ -23,7 +23,7 @@ import "../../styles/home/Speaker2.css";
 const Speakerqa = () => {
   return (
     <div className="container">
-      <h2 style={{ color: "blue" }}>MEET SOME OF OUR 2023 Q AND A SPEAKERS</h2>
+      <h2  className="textSize" style={{ color: "blue" }}>MEET SOME OF OUR 2023 Q AND A SPEAKERS</h2>
       <div className="inner-container">
         <table>
           <tr>

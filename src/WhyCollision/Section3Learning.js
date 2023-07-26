@@ -4,11 +4,11 @@ import share from "../images/Share-experties.png";
 
 const Section3Learning = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section  className="textSize"style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={speakers} />
+          <img className="image-size"             src={speakers} />
           </div>
           <span>
             <h3>INCREDIBLE SPEAKERS</h3>
@@ -27,12 +27,12 @@ As summarized by Entrepreneur Magazine, "every visitor is guaranteed to learn so
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={update} />
+          <img className="image-size"             src={update} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={share} />
+          <img className="image-size"            src={share} />
           </div>
           <span>
             <h3>SHARE EXPERTISE</h3>

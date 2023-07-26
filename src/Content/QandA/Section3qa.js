@@ -1,18 +1,14 @@
-import network from "../../images/home/Landing_Amplify.jpg";
 import "../../styles/qanda.css";
 const Section3qa = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="text-size" style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ marginLeft: "1em", marginRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "6em", marginRight: "2em" }}>
          
             <div
-              style={{
-                height: "10px",
-                width: "50px",
-                backgroundColor: "green",
-              }}
+                           className="blocklinegreen"
+
             ></div>
           </div>
           <span>
@@ -40,11 +36,8 @@ const Section3qa = () => {
           <div style={{ marginTop: "6em", marginLeft: "2em" }}>
          
             <div
-              style={{
-                height: "10px",
-                width: "50px",
-                backgroundColor: "yellow",
-              }}
+                           className="blocklineyellow"
+
             ></div>
           </div>
         </div>
@@ -52,11 +45,8 @@ const Section3qa = () => {
         <div style={{ marginTop: "6em", marginRight: "2em" }}>
          
          <div
-           style={{
-             height: "10px",
-             width: "50px",
-             backgroundColor: "blue",
-           }}
+                        className="blocklineblue"
+
          ></div>
        </div>
           <span>
@@ -80,11 +70,8 @@ const Section3qa = () => {
           <div style={{ marginTop: "6em", marginLeft: "2em" }}>
          
             <div
-              style={{
-                height: "10px",
-                width: "50px",
-                backgroundColor: "red",
-              }}
+                           className="blockline"
+
             ></div>
           </div>
         </div>

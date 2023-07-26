@@ -3,7 +3,7 @@
 
 const Section5 = () => {
     return (
-    <section >
+    <section   className="text-size">
         <div>
         <div class="container"><h2 style={{color:"black"}}>Watch the Collision 2023 trailer </h2></div>
         <div class="container"><iframe width="100%" height="300" srcdoc="<style>*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:48px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}</style>

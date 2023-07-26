@@ -31,7 +31,7 @@ const Slider2 = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"blue"}} >
-      <h2 style={{margin: "1em",color:"white",  textTransform: "uppercase"
+      <h2 className="textSize" style={{ display:"flex",  alignItems:"center", justifyContent:"center", margin: "1em",color:"white",  textTransform: "uppercase"
 }}> Companies that attend collision  </h2>
 
     <Carousel

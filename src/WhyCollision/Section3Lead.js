@@ -5,11 +5,11 @@ import cisco from "../images/cisco-5-1.png";
 
 const Section3Lead = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="textSize"style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
       <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em",marginRight:"1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={kpmg} />
+          <img className="image-size"            src={kpmg} />
           </div>
           <span>
             <h3>
@@ -21,12 +21,12 @@ const Section3Lead = () => {
             <h3>"We met so many startups, potential applicants, and business partners within those three days. It was very successful." </h3>
           </span>
           <div style={{ marginLeft: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={benz} />
+          <img className="image-size"            src={benz} />
           </div>
         </div>
         <div style={{ marginTop:"2em",display: "inline-flex" }}>
           <div style={{ marginTop: "1em",marginRight:"2em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={hack} />
+          <img className="image-size"             src={hack} />
           </div>
           <span>
             <h3>
@@ -46,7 +46,7 @@ const Section3Lead = () => {
             </div>
           </span>
           <div style={{ marginTop: "7em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={cisco} />
+          <img className="image-size"             src={cisco} />
           </div>
         </div>
       </div>

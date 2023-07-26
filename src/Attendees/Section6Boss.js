@@ -1,4 +1,5 @@
 import "../styles/home/Speakers.css";
+import { Link } from "react-router-dom";
 
 const Section6Boss = () => {
   return (
@@ -79,8 +80,15 @@ const Section6Boss = () => {
               </div>
             </div>
 
-            <button className="btn">Download Information Pack</button>
-          </form>
+            <Link
+                style={{ marginTop: "2em", height: "60px" }}
+                className="hero-btn-redd "
+                to="https://form.jotform.com/231143699159262"
+                rel=""
+                target=""
+              >
+                Download Information Pack{" "}
+              </Link>          </form>
         </div>
       </div>
     </section>

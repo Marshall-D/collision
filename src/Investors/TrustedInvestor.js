@@ -20,6 +20,8 @@ import "../styles/Investor.css"
 function TrustedInvestor() {
   return (
     <div className="container">
+          <h2 className="textSize" style={{ color: "blue" }}>THE WORLD'S MOST PROMINENT FIRMS JOIN US</h2>
+
       <div className="inner-containers">
         <table>
           <tr>

@@ -1,37 +1,29 @@
 import tom from "../../images/speakers/tom.avif";
 import blueblack from "../../images/speakers/blueblack.avif";
 import penny from "../../images/speakers/penny.avif";
-import anthony from "../../images/speakers/anthony.avif";
-import kim from "../../images/speakers/kim.avif";
-import gina from "../../images/speakers/gina.avif";
-import josh from "../../images/speakers/josh.avif";
+
 import wayne from "../../images/speakers/wayne.avif";
-import phil from "../../images/speakers/phil.avif";
 import juju from "../../images/speakers/juju.avif";
 import kensim from "../../images/speakers/kensim.avif";
-import michael from "../../images/speakers/michael.avif";
-import melissa from "../../images/speakers/melissa.avif";
-import sean from "../../images/speakers/sean.avif";
-import mustafa from "../../images/speakers/mustafa.avif";
-import wesley from "../../images/speakers/wesley.avif";
+
 import sarah from "../../images/speakers/sarah.png";
 import whyz from "../../images/speakers/whyz.avif";
 import { Link } from "react-router-dom";
 
 const Section3qa2 = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section
+      className="textSize"
+      style={{ paddingTop: "2em", paddingBottom: "2em" }}
+    >
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
-        <h2 style={{ color: "black" }}>
+        <h2 className="textSize" style={{ color: "black" }}>
           CHECK OUT SOME OF OUR Q AND A'S AT COLLISION 2023
         </h2>
 
         <div style={{ display: "inline-flex", marginBottom: "2em" }}>
           <div style={{ marginTop: "3em" }}>
-            <img
-              style={{ width: "100px", height: "100px", marginRight: "1em" }}
-              src={sarah}
-            />
+            <img className="image-size" src={sarah} />
           </div>
           <span>
             <h3>Pro tips for pitching with Sarah Guo 📈</h3>
@@ -52,12 +44,12 @@ const Section3qa2 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em", marginLeft: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={kensim} />
+            <img className="image-size" src={kensim} />
           </div>
         </div>
         <div style={{ display: "inline-flex", marginBottom: "2em" }}>
           <div style={{ marginTop: "5em", marginRight: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={whyz} />
+            <img className="image-size" src={whyz} />
           </div>
           <span>
             <h3>Q&amp;A with Kelly Rutherford 🎤</h3>{" "}
@@ -83,13 +75,13 @@ const Section3qa2 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={tom} />
+            <img className="image-size" src={tom} />
           </div>
         </div>
 
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "5em", marginRight: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={penny} />
+            <img className="image-size" src={penny} />
           </div>
           <span>
             <h3>Q&amp;A with Penny Oleksiak 🏅</h3>
@@ -114,12 +106,12 @@ const Section3qa2 = () => {
             </div>
           </span>
           <div style={{ marginTop: "5em", marginLeft: "1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={blueblack} />
+            <img className="image-size" src={blueblack} />
           </div>
         </div>
         <div style={{ display: "inline-flex" }}>
-          <div style={{ marginTop: "5em",marginRight:"1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={wayne} />
+          <div style={{ marginTop: "5em", marginRight: "1em" }}>
+            <img className="image-size" src={wayne} />
           </div>
           <span>
             <h3>Q&amp;A with Sarah Wayne Callies 🎬</h3>{" "}
@@ -141,17 +133,12 @@ const Section3qa2 = () => {
               Champion Fantasy and PlayerX, a fantasy sports platform.{" "}
             </div>
           </span>
-          <div style={{ marginTop: "5em",marginLeft:"1em" }}>
-            <img style={{ width: "100px", height: "100px" }} src={juju} />
+          <div style={{ marginTop: "5em", marginLeft: "1em" }}>
+            <img className="image-size" src={juju} />
           </div>
         </div>
       </div>
-      <Link type="button"
-                      to="https://form.jotform.com/231143699159262"
-
-      id="" class="btn" style={{ marginTop: "2em" }}>
-        View all q and a at collision
-      </Link>
+    
     </section>
   );
 };

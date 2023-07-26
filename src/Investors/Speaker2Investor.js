@@ -28,7 +28,7 @@ import "../styles/Speaker2Investor.css";
 const Speaker2Investor = () => {
   return (
     <div className="container">
-      <h2 style={{ color: "blue" }}>MEET OUR 2023 INVESTORS</h2>
+      <h2  className="textSize" style={{ color: "blue" }}>MEET OUR 2023 INVESTORS</h2>
       <div className="inner-container">
         <table>
           <tr>

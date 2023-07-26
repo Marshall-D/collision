@@ -44,7 +44,7 @@ const ContactForm = () => {
   return (
     <section className="formSection">
       <div className="container">
-        <h2>Contact us by filling the form below</h2>
+        <h2 className="textSize">Contact us by filling the form below</h2>
         <div class="notHero">
           <form 
           

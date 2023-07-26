@@ -2,13 +2,13 @@
 import "../styles/qanda.css";
 const Section3Investor = () => {
   return (
-    <section style={{ paddingTop: "2em", paddingBottom: "2em" }}>
+    <section className="text-size" style={{ paddingTop: "2em", paddingBottom: "2em" }}>
       <div style={{ paddingLeft: "1em", paddingRight: "1em" }}>
         <div style={{ display: "inline-flex" }}>
           <div style={{ marginTop: "6em" }}>
             <span
               className="blockline"
-              style={{ width: "50px", height: "10px" }}
+              // style={{ width: "50px", height: "10px" }}
             ></span>
           </div>
           <span>
@@ -28,7 +28,6 @@ const Section3Investor = () => {
           <div style={{ marginTop: "6em" }}>
             <span
               className="blocklineblue"
-              style={{ width: "50px", height: "10px" }}
             ></span>
           </div>
         </div>
@@ -36,7 +35,6 @@ const Section3Investor = () => {
         <div style={{ marginTop: "6em" }}>
             <span
               className="blocklineyellow"
-              style={{ width: "50px", height: "10px" }}
             ></span>
           </div>
           <span>
@@ -57,7 +55,6 @@ const Section3Investor = () => {
           <div style={{ marginTop: "6em" }}>
             <span
               className="blocklinegreen"
-              style={{ width: "50px", height: "10px" }}
             ></span>
           </div>
         </div>

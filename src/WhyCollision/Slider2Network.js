@@ -22,7 +22,7 @@ const Slider2Network = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"blue"}} >
-      <h2 style={{margin: "1em",color:"black"}}> NETWORKING AT COLLISION  </h2>
+      <h2 className="textSize"  style={{  display:"flex",  justifyContent:"center",  alignItems:"center", margin: "1em",color:"black"}}> NETWORKING AT COLLISION  </h2>
 
     <Carousel
       className="slider"

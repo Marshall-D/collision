@@ -1,4 +1,5 @@
 import "../styles/home/Speaker2.css";
+import MediaQuery from "react-responsive";
 
 import tara from "../images/speakers/tara.png";
 import marques from "../images/speakers/marques.jpg";
@@ -26,7 +27,7 @@ const SpeakerTableHome = () => {
     <div className="container">
       <h2 className="textSize"  style={{ color: "blue"}}>MEET OUR 2023 SPEAKERS </h2>
       <div className="inner-container">
-      <table >
+      <table   >
         <tr>
           <td>
             <div className="image">
@@ -269,6 +270,12 @@ const SpeakerTableHome = () => {
         </tr>
       </table>
       </div>
+
+      {/* <MediaQuery query=(min-width: 1024px)>
+    <div className="question">
+        ...
+    </div>
+</MediaQuery> */}
     </div>
   );
 };

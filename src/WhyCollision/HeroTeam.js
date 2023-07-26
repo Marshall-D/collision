@@ -31,7 +31,7 @@ const HeroTeam = () => {
           
             <div className="col-md-6-center">
               <Link
-                className="hero-btn-red "
+                className="hero-btn-redd "
                 to="https://form.jotform.com/231143699159262"
                 rel=""
                 target=""

@@ -80,8 +80,14 @@
         /* margin-left: 20px; */
     }
 }
-    @media screen and (width > 850px) {
+
+@media screen and (width > 850px) {
 
     .textSize {
-font-size: 3rem;    }
+        font-size: 3rem;
+    }
+/* 
+    .image-text {
+        font-size: 2em;
+    } */
 }

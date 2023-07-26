@@ -22,7 +22,7 @@ const Slider2Learning = () => {
   }, [currentSlide, totalSlides]);
   return (
     <div style={{backgroundColor:"blue"}} >
-      <h2 style={{margin: "1em",color:"white"}}> THE WORLDS LEADING COMPANIES RUN MASTERCLASSES AT OUR EVENTS  </h2>
+      <h2 className="textSize" style={{  display:"flex", alignItems:"center", justifyContent:"center", margin: "1em",color:"white"}}> THE WORLDS LEADING COMPANIES RUN MASTERCLASSES AT OUR EVENTS  </h2>
 
     <Carousel
       className="slider"

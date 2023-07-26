@@ -46,6 +46,9 @@ import "../styles/home/Speaker2.css";
 const Speaker2Att = () => {
   return (
     <div className="container">
+        <h2 className="textSize" style={{ color: "blue" }}>
+        MEET OUR 2023 SPEAKERS
+      </h2>
       <div className="inner-container">
         <table>
           <tr>

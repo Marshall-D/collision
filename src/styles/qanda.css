@@ -1,12 +1,12 @@
-.blockline{
+.blockline {
 
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     color: var(--black-color);
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -15,19 +15,21 @@
     padding: 0;
     margin-right: 4em;
     font-size: .85rem;
-    width: 50%;
-    height: 8px;
+    width: 50px;
+
+    height: 10px;
     background: rgb(245, 58, 39);
 }
-.blocklineblue{
+
+.blocklineblue {
 
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     color: var(--black-color);
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -36,18 +38,21 @@
     padding: 0;
     margin-left: 4em;
     font-size: .85rem;
-    width: 50%;
-    height: 8px;
+    width: 50px;
+
+    height: 10px;
     background: rgb(39, 97, 245);
-}.blocklineyellow{
+}
+
+.blocklineyellow {
 
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     color: var(--black-color);
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -56,18 +61,21 @@
     padding: 0;
     margin-right: 4em;
     font-size: .85rem;
-    width: 50%;
-    height: 8px;
+    width: 50px;
+
+    height: 10px;
     background: rgb(245, 245, 39);
-}.blocklinegreen{
+}
+
+.blocklinegreen {
 
     -webkit-text-size-adjust: 100%;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     color: var(--black-color);
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     box-sizing: border-box;
     display: block;
     text-align: left;
@@ -76,7 +84,39 @@
     padding: 0;
     margin-left: 4em;
     font-size: .85rem;
-    width: 50%;
-    height: 8px;
+    width: 50px;
+
+    height: 10px;
     background: rgb(39, 245, 221);
+}
+
+
+@media screen and (width > 850px) {
+    .blockline {
+        height: 12px;
+        width: 70px;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
+
+    .blocklinegreen {
+        height: 12px;
+        width: 70px;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
+
+    .blocklineyellow {
+        height: 12px;
+        width: 70px;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
+
+    .blocklineblue {
+        height: 12px;
+        width: 70px;
+        margin-right: 5em;
+        margin-bottom: 5em;
+    }
 }
