@@ -8,8 +8,8 @@ const Section4qa = () => {
       <div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
-            src={christopher}
+          className="section4-image"
+          src={christopher}
             loading="eager"
           />
         </div>
@@ -56,8 +56,8 @@ const Section4qa = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
-            src={stage}
+          className="section4-image"
+          src={stage}
             loading="eager"
           />
         </div>

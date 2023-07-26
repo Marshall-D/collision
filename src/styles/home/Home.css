@@ -229,6 +229,11 @@
 .textSize-speaker{
     font-size: 0.5em;
 }
+.section4-image{
+    width: 100%;
+    height: 200px; 
+}
+
 
 @media screen and (width > 850px) {
     .hero {
@@ -284,5 +289,8 @@
     }
     .textSize-speaker{
         font-size: 1em;
+    }
+    .section4-image{
+        height: 900px; 
     }
 }

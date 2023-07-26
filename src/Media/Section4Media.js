@@ -8,8 +8,8 @@ const Section4Media = () => {
         <div>
           <div>
             <img
-              style={{ width: "100%", height: "900px" }}
-              src={carmelo}
+          className="section4-image"
+          src={carmelo}
               loading="eager"
             />
           </div>
@@ -56,8 +56,8 @@ const Section4Media = () => {
           </div>
           <div>
             <img
-              style={{ width: "100%", height: "900px" }}
-              src={amy}
+          className="section4-image"
+          src={amy}
               loading="eager"
             />
           </div>

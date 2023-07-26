@@ -9,8 +9,8 @@ const Section4Learning = () => {
       <div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
-            src={tracy}
+          className="section4-image"
+          src={tracy}
             alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
             loading="eager"
           />
@@ -69,8 +69,8 @@ const Section4Learning = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
-            src={daphne}
+          className="section4-image"
+          src={daphne}
             loading="eager"
           />
         </div>

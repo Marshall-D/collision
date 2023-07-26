@@ -5,7 +5,7 @@ const Section4Partner = () => {
       <div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
+          className="section4-image"
             src="https://web-summit-library.imgix.net/collision/2019/06/BMO-stand-during-day-one-of-Collision-2019-at-Enercare-Center-in-Toronto.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&s=5f677d1753bae0adb1a12e7b7cbc4306"
             alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
             loading="eager"
@@ -70,8 +70,8 @@ const Section4Partner = () => {
         </div>
         <div>
           <img
-            style={{ width: "100%", height: "900px" }}
-            src="https://web-summit-library.imgix.net/collision/2019/05/46980140175_b3fd9f93eb_k.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&s=0fb6e9363dda23fea0dc9afca82a1fb1
+          className="section4-image"
+          src="https://web-summit-library.imgix.net/collision/2019/05/46980140175_b3fd9f93eb_k.jpg?auto=compress%2Cformat&ixlib=php-3.3.0&s=0fb6e9363dda23fea0dc9afca82a1fb1
               "
             alt="carmelo-anthony_nba-all-star-entrepreneur_centre-stage-2022"
             loading="eager"
